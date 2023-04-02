@@ -42,14 +42,25 @@ Zend Engine v4.1.17, Copyright (c) Zend Technologies
 
 </details>
 
+<details>
+<summary>vscodeの拡張機能</summary>
+
+- "esbenp.prettier-vscode"
+- "bmewburn.vscode-intelephense-client"
+- "bradlc.vscode-tailwindcss"
+
+</details>
+
 <br><br>
 
 ## ローカルサーバ起動
 
 ```zsh
-% php -S localhost:8000
+% npm run start
 ```
 
+## tailwindcss のビルド
+
 ```
-% open http://localhost:8000
+% npm run tailwind
 ```

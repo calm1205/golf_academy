@@ -5,6 +5,15 @@
 ## ⚙️ 環境構築
 
 <details>
+<summary>git clone</summary>
+
+```zsh
+% git clone git@github.com:...
+```
+
+</details>
+
+<details>
 <summary>homebrewのinstall</summary>
 
 [homebrew サイト](https://brew.sh/index_ja)
@@ -60,6 +69,11 @@ Zend Engine v4.1.17, Copyright (c) Zend Technologies
 % nodebrew use v18.15.0
 % node -v
 v18.15.0
+```
+npmのパッケージ インストール
+
+```zsh
+% npm install
 ```
 
 </details>

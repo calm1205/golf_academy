@@ -7,7 +7,8 @@
     <title>ゴルフレッスンサイト</title>
 </head>
 <body>
-    <?php include('./header.php') ?>
-    <?php include('./content.php') ?>
+  <h1>hello world</h1>
+    <?php include('./header/header.php') ?>
+    <?php include('./footer.php') ?>
 </body>
 </html>

@@ -10,10 +10,10 @@
   </div>
 </div>
 
+<!-- 記事 -->
 <div class="flex justify-center mt-10">
   <section class="w-4/5 mt-2 flex flex-col gap-4">
     <?php for ($i = 0; $i <= 10; $i++) { ?>
-
       <article class="flex flex-col gap-2">
         <span class="text-[10px] text-white bg-sky-600 p-1 w-fit">2022/10/10</span>
         <h3 class="text-base">ゴルフシーズン期間限定キャンペーン実施中</h3>

@@ -1,5 +1,5 @@
 <!-- コンテンツ ヘッダー -->
-<div class="relative">
+<div class=" sticky top-[48px] w-full">
   <img src='./asset/golf.jpg' alt="" class="h-40 w-full object-cover">
   <div class="absolute top-0 flex justify-center items-center h-full w-full">
 
@@ -10,7 +10,7 @@
   </div>
 </div>
 
-<div class="flex justify-center">
+<div class="flex justify-center mt-10">
   <section class="w-4/5 mt-2 flex flex-col gap-4">
     <?php for ($i = 0; $i <= 10; $i++) { ?>
 

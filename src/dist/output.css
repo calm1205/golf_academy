@@ -528,6 +528,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -536,12 +540,32 @@ video {
   top: 0px;
 }
 
+.top-\[64px\] {
+  top: 64px;
+}
+
+.top-\[60px\] {
+  top: 60px;
+}
+
+.top-\[56px\] {
+  top: 56px;
+}
+
+.top-\[48px\] {
+  top: 48px;
+}
+
 .m-auto {
   margin: auto;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .flex {

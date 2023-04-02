@@ -67,7 +67,7 @@ Zend Engine v4.1.17, Copyright (c) Zend Technologies
 
 <br><br>
 
-## 関連資料
+## 📚 関連資料
 
 - [構成案 PDF](https://drive.google.com/drive/folders/1Jwdmr7g_MEQkBJ62GBMSizPQW8D08Y-C)
 - [サイトマップ](https://docs.google.com/spreadsheets/d/14-skC5Ch_RSmT0ZnDHErwU-y7SSvTpxOFA4gipYZI6U/edit#gid=1819710037)

@@ -1,5 +1,7 @@
 # php_sandbox
 
+<br><br>
+
 ## 環境構築
 <details>
 <summary>homebrewのinstall</summary>
@@ -40,8 +42,14 @@ Zend Engine v4.1.17, Copyright (c) Zend Technologies
 
 </details>
 
+<br><br>
+
 ## ローカルサーバ起動
 
 ```zsh
 % php -S localhost:8000
+```
+
+```
+% open http://localhost:8000
 ```

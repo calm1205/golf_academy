@@ -43,6 +43,28 @@ Zend Engine v4.1.17, Copyright (c) Zend Technologies
 </details>
 
 <details>
+<summary>nodeのinstall</summary>
+
+[nodebrew](https://github.com/hokaccha/nodebrew)
+
+```zsh
+% brew install nodebrew
+% echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zshrc
+% source ~/.zshrc
+% nodebrew install v18.15.0
+```
+
+インストール確認
+
+```zsh
+% nodebrew use v18.15.0
+% node -v
+v18.15.0
+```
+
+</details>
+
+<details>
 <summary>vscodeの拡張機能</summary>
 
 - "esbenp.prettier-vscode"

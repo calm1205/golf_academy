@@ -1,8 +1,8 @@
-# php_sandbox
+# ⛳️ After Golf Studio
 
 <br><br>
 
-## 環境構築
+## ⚙️ 環境構築
 
 <details>
 <summary>homebrewのinstall</summary>
@@ -53,7 +53,7 @@ Zend Engine v4.1.17, Copyright (c) Zend Technologies
 
 <br><br>
 
-## ローカルサーバ起動
+## 🏌🏻 ローカルサーバ起動
 
 ```zsh
 % npm run start
@@ -64,3 +64,12 @@ Zend Engine v4.1.17, Copyright (c) Zend Technologies
 ```
 % npm run tailwind
 ```
+
+<br><br>
+
+## 関連資料
+
+- [構成案 PDF](https://drive.google.com/drive/folders/1Jwdmr7g_MEQkBJ62GBMSizPQW8D08Y-C)
+- [サイトマップ](https://docs.google.com/spreadsheets/d/14-skC5Ch_RSmT0ZnDHErwU-y7SSvTpxOFA4gipYZI6U/edit#gid=1819710037)
+- [Figma（未）](#)
+- [wordpress site](https://golf.5blocks.jp/)

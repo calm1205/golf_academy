@@ -3,15 +3,16 @@
 <br><br>
 
 ## 環境構築
+
 <details>
 <summary>homebrewのinstall</summary>
 
 [homebrew サイト](https://brew.sh/index_ja)
 
-
 ```zsh
 % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
 </details>
 
 <details>
@@ -22,7 +23,7 @@
 % arch -arm64 brew install php@8.1php # macのメモリがM1の場合
 ```
 
-phpのパスを通す。
+php のパスを通す。
 
 ```zsh
 % echo 'export PATH="/opt/homebrew/opt/php@8.1/bin:$PATH"' >> ~/.zshrc
@@ -38,7 +39,6 @@ Copyright (c) The PHP Group
 Zend Engine v4.1.17, Copyright (c) Zend Technologies
     with Zend OPcache v8.1.17, Copyright (c), by Zend Technologies
 ```
-
 
 </details>
 

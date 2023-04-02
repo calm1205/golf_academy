@@ -81,7 +81,7 @@ v18.15.0
 % npm run start
 ```
 
-### tailwindcss の css 監視 & 自動ビルド
+tailwindcss の css 監視 & 自動ビルド
 
 ```
 % npm run tailwind

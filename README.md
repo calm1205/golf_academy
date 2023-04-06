@@ -1,5 +1,6 @@
 # ⛳️ Golf Academy
 
+- [プロジェクトボード](https://github.com/users/calm1205/projects/5)
 - [開発手順](https://github.com/calm1205/golf_academy/wiki/%E9%96%8B%E7%99%BA%E6%89%8B%E9%A0%86)
 
 <br><br>

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "php -S localhost:8000",
+    "start": "cd src && php -S localhost:8000",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/dist/output.css --watch"
   },
   "devDependencies": {

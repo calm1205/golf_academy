@@ -3,3 +3,4 @@
     copy light golf studio
   </div>
 </footer> -->
+<?php include './components/footer/copyright.php'; ?>

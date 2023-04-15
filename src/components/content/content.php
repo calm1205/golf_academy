@@ -10,6 +10,9 @@
   </div>
 </div>
 
+<!-- タイトル -->
+<?php include __DIR__ . '/title/title.php'; ?>
+
 <!-- 記事 -->
 <div class="flex justify-center mt-10">
   <section class="w-4/5 mt-2 flex flex-col gap-4">

@@ -14,12 +14,18 @@
 </head>
 
 <body>
+  <!-- パスの定義 -->
+  <?php
+  $absolutePath = __DIR__; // 絶対パス
+  $assetPath = $absolutePath . '/asset';
+  $uiPartsPath = $absolutePath . '/components/ui_parts' // ui_parts
+  ?>
+
+
+
   <?php include './components/header/header.php'; ?>
   <?php include './components/content/content.php'; ?>
   <?php include './components/footer/footer.php'; ?>
-
-
-
 </body>
 
 </html>

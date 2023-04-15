@@ -6,7 +6,7 @@
       <p class="mt-2"><a href="#">初回診断</a></p>
       <p class="mt-2"><a href="#">料金</a></p>
       <p class="mt-2"><a href="#">レンタル(無料)</a></p>
-      <p class="mt-2"><a href="#">コーチ ＆ 所属選手</a></p>
+      <p class="mt-2"><a href="#">コーチ & 所属選手</a></p>
       <p class="mt-2"><a href="#">感染対策</a></p>
     </div>
 

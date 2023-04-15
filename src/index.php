@@ -18,6 +18,8 @@
   <?php include './components/content/content.php'; ?>
   <?php include './components/footer/footer.php'; ?>
 
+
+
 </body>
 
 </html>

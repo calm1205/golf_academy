@@ -41,3 +41,4 @@
 
 
   </div>
+  <?php include './components/footer/copyright.php'; ?>

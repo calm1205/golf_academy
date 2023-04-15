@@ -17,7 +17,6 @@
   <?php include './components/header/header.php'; ?>
   <?php include './components/content/content.php'; ?>
   <?php include './components/footer/footer.php'; ?>
-  <?php include './components/footer/copyright.php'; ?>
 
 </body>
 

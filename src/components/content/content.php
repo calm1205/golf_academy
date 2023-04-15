@@ -23,3 +23,7 @@
     <?php } ?>
   </section>
 </div>
+
+<?php include 'button-lesson.php'; ?>
+<?php include 'button-staff.php'; ?>
+<?php include 'button-rental.php'; ?>

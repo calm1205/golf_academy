@@ -1,0 +1,1 @@
+<p class="text-center pt-8"><a class="border-2 py-2 px-4 border-blue-400 rounded">レッスンの詳細を見る</a></p>

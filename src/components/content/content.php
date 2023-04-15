@@ -1,5 +1,5 @@
 <!-- コンテンツ ヘッダー -->
-<div class=" sticky top-[48px] w-full">
+<div class="sticky top-[48px] w-full z-50">
   <img src='./asset/golf.jpg' alt="" class="h-40 w-full object-cover">
   <div class="absolute top-0 flex justify-center items-center h-full w-full">
 
@@ -11,7 +11,10 @@
 </div>
 
 <!-- タイトル -->
-<?php include __DIR__ . '/title/title.php'; ?>
+<?php
+$title = 'After Golf Studioのご紹介';
+$children = file_get_contents($absolutePath . '/components/content/introduction/introduction.php');
+include $uiPartsPath . '/section/section.php' ?>
 
 <!-- 記事 -->
 <div class="flex justify-center mt-10">

@@ -2,7 +2,7 @@
 
   <div class="flex items-center gap-3">
     <?php include $uiPartsPath . '/logo.svg' ?>
-    <img src="./asset/afterGolfStudio.png" alt="" />
+    <img src="./asset/header/afterGolfStudio.png" alt="" />
   </div>
 
   <div class="flex items-end h-24 pb-3">

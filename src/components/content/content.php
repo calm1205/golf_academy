@@ -3,6 +3,7 @@
 <div class="h-80"></div>
 
 <div class="h-28 flex justify-center items-center">
+  <?php include './baloon/baloon.php'; ?>
   [未]ゴルフをこれから始める人も！
   もっと上達したい人も！ 大歓迎！
 </div>

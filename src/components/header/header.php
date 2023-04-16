@@ -1,7 +1,7 @@
 <header class="h-24 p-2 flex sticky top-0 w-full items-center justify-between bg-white z-50">
 
   <div class="flex items-center gap-3">
-    <?php include $uiPartsPath . '/logo.svg' ?>
+    <?php include './asset/logo.svg' ?>
     <img src="./asset/header/afterGolfStudio.png" alt="" />
   </div>
 

@@ -1,14 +1,5 @@
-<!-- コンテンツ ヘッダー -->
-<div class="absolute top-[48px] w-full">
-  <img src='./asset/golf.jpg' alt="" class="h-52 w-full object-cover">
-  <div class="absolute top-0 flex justify-center items-center h-full w-full">
+<?php include __DIR__ . '/top/top.php' ?>
 
-    <div class=" w-4/5">
-      <h2 class="text-white text-lg font-bold">After Golf Studio</h2>
-      <hr class=" border border-solid border-white" />
-    </div>
-  </div>
-</div>
 <div class="h-80"></div>
 
 <div class="h-28 flex justify-center items-center">

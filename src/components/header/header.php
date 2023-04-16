@@ -1,10 +1,11 @@
-<header class="h-12 p-2 flex sticky top-0 w-full items-center justify-between bg-sky-700 z-50">
-  <h1 class="text-xl text-white font-bold tracking-wide">⛳️ GOLF STUDIO</h1>
+<header class="h-24 p-2 flex sticky top-0 w-full items-center justify-between bg-white z-50">
 
-  <ul class="flex gap-2 text-white text-xs">
-    <li class="text-white">料金</li>
-    <li class="text-white">レンタル用品</li>
-    <li class="text-white">コーチ&所属選手</li>
-    <li class="text-white">アクセス</li>
-  </ul>
+  <div class="flex items-center gap-3">
+    <?php include $uiPartsPath . '/logo.svg' ?>
+    <img src="./asset/afterGolfStudio.png" alt="" />
+  </div>
+
+  <div class="flex items-end h-24 pb-3">
+    <?php include __DIR__ . '/menu.php' ?>
+  </div>
 </header>

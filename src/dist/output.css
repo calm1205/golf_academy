@@ -1179,3 +1179,63 @@ video {
   --tw-content: '';
   content: var(--tw-content);
 }
+
+.\[\&_div\]\:m-0 div {
+  margin: 0px;
+}
+
+.\[\&_div\]\:h-4 div {
+  height: 1rem;
+}
+
+.\[\&_div\]\:border-r div {
+  border-right-width: 1px;
+}
+
+.\[\&_div\]\:p-0 div {
+  padding: 0px;
+}
+
+.\[\&_div\]\:pr-2 div {
+  padding-right: 0.5rem;
+}
+
+.\[\&_div\]\:leading-4 div {
+  line-height: 1rem;
+}
+
+.\[\&_td\]\:pl-2 td {
+  padding-left: 0.5rem;
+}
+
+.\[\&_th\]\:py-4 th {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.\[\&_th\]\:py-3 th {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.\[\&_th\]\:pl-3 th {
+  padding-left: 0.75rem;
+}
+
+.\[\&_th\]\:font-normal th {
+  font-weight: 400;
+}
+
+.\[\&_tr\]\:border-t tr {
+  border-top-width: 1px;
+}
+
+.\[\&_tr\]\:py-2 tr {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.\[\&_tr\]\:py-4 tr {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

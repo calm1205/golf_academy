@@ -47,5 +47,4 @@ include $uiPartsPath . '/section/section.php' ?>
   </iframe>
 </div>
 
-<?php include 'button.php'; ?>
 <?php include 'guidance/guidance.php'; ?>

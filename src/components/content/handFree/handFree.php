@@ -11,5 +11,10 @@
     </div>
   </div>
 
-  <div class="mt-10 text-center">[未]スタッフ紹介を見る</div>
+  <div class="mt-10 text-center">
+    <?php
+    $button = 'レンタル用品一覧を見る';
+    include $uiPartsPath . '/button/button.php'
+    ?>
+  </div>
 </div>

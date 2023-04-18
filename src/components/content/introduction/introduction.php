@@ -19,6 +19,9 @@
   </div>
 
   <div class="flex justify-center">
-    <p>[未]ここにボタン</p>
+    <?php
+    $button = 'レッスンの詳細を見る';
+    include $uiPartsPath . '/button/button.php'
+    ?>
   </div>
 </div>

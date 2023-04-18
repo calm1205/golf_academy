@@ -47,4 +47,9 @@ include $uiPartsPath . '/section/section.php' ?>
   </iframe>
 </div>
 
+<?php
+$button = 'レンタル用品一覧を見る';
+include $uiPartsPath . '/button/button.php'
+?>
+
 <?php include 'guidance/guidance.php'; ?>

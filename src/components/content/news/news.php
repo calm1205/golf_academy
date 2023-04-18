@@ -7,7 +7,7 @@
           <span class="text-[8px] text-white bg-sky-600 px-2 w-fit h-4">
             2022/10/10
           </span>
-          <p class="text-[16px] text-gray-600 font-normal leading-4">
+          <p class="text-base text-gray-600">
             ニュース仮テキスト〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇
           </p>
           <i class="fa-solid fa-chevron-right"></i>

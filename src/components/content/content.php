@@ -2,7 +2,9 @@
 
 <div class="h-80"></div>
 
+<?php include 'baloon/baloon.php'; ?>
 <div class="h-28 flex justify-center items-center">
+
   [未]ゴルフをこれから始める人も！
   もっと上達したい人も！ 大歓迎！
 </div>
@@ -45,4 +47,4 @@ include $uiPartsPath . '/section/section.php' ?>
   </iframe>
 </div>
 
-<?php include 'guidance/guidance.php'; ?>
+<?php include 'button.php'; ?>

@@ -606,10 +606,6 @@ video {
   height: 7rem;
 }
 
-.h-4 {
-  height: 1rem;
-}
-
 .h-56 {
   height: 14rem;
 }
@@ -625,6 +621,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-4 {
+  height: 1rem;
 }
 
 .w-4\/5 {
@@ -731,10 +731,6 @@ video {
 
 .border-r {
   border-right-width: 1px;
-}
-
-.border-t {
-  border-top-width: 1px;
 }
 
 .border-solid {
@@ -845,20 +841,25 @@ video {
   padding-bottom: 2rem;
 }
 
-.pb-2 {
-  padding-bottom: 0.5rem;
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pb-3 {
   padding-bottom: 0.75rem;
 }
 
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
 .pl-4 {
   padding-left: 1rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .pr-2 {
@@ -882,6 +883,11 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-\[10px\] {
   font-size: 10px;
 }
@@ -900,6 +906,10 @@ video {
   line-height: 1rem;
 }
 
+.text-\[8px\] {
+  font-size: 8px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -908,12 +918,20 @@ video {
   font-weight: 300;
 }
 
-.font-normal {
-  font-weight: 400;
+.font-extralight {
+  font-weight: 200;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .leading-4 {
   line-height: 1rem;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 .text-blue-400 {
@@ -1180,46 +1198,13 @@ video {
   content: var(--tw-content);
 }
 
-.\[\&_div\]\:m-0 div {
-  margin: 0px;
-}
-
-.\[\&_div\]\:h-4 div {
-  height: 1rem;
-}
-
-.\[\&_div\]\:border-r div {
-  border-right-width: 1px;
-}
-
-.\[\&_div\]\:p-0 div {
-  padding: 0px;
-}
-
-.\[\&_div\]\:pr-2 div {
-  padding-right: 0.5rem;
-}
-
-.\[\&_div\]\:leading-4 div {
-  line-height: 1rem;
-}
-
 .\[\&_td\]\:pl-2 td {
   padding-left: 0.5rem;
-}
-
-.\[\&_th\]\:py-4 th {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .\[\&_th\]\:py-3 th {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.\[\&_th\]\:pl-3 th {
-  padding-left: 0.75rem;
 }
 
 .\[\&_th\]\:font-normal th {
@@ -1228,14 +1213,4 @@ video {
 
 .\[\&_tr\]\:border-t tr {
   border-top-width: 1px;
-}
-
-.\[\&_tr\]\:py-2 tr {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.\[\&_tr\]\:py-4 tr {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }

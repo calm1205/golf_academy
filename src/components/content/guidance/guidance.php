@@ -1,3 +1,5 @@
+<!-- 営業のご案内 -->
+
 <div class="flex gap-6 items-center justify-center">
   <img src="../../../asset/news/image_guidance.svg" alt="ご案内" width="480" height="240">
 

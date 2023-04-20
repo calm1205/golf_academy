@@ -590,8 +590,65 @@ video {
   display: table;
 }
 
-.h-400 {
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-56 {
+  height: 14rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-\[400px\] {
   height: 400px;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .w-4\/5 {
@@ -919,6 +976,21 @@ video {
   top: 100%;
 }
 
+.before\:h-0::before {
+  content: var(--tw-content);
+  height: 0px;
+}
+
+.before\:h-12::before {
+  content: var(--tw-content);
+  height: 3rem;
+}
+
+.before\:h-16::before {
+  content: var(--tw-content);
+  height: 4rem;
+}
+
 .before\:w-0::before {
   content: var(--tw-content);
   width: 0px;
@@ -1023,6 +1095,21 @@ video {
 .after\:top-full::after {
   content: var(--tw-content);
   top: 100%;
+}
+
+.after\:h-0::after {
+  content: var(--tw-content);
+  height: 0px;
+}
+
+.after\:h-16::after {
+  content: var(--tw-content);
+  height: 4rem;
+}
+
+.after\:h-4::after {
+  content: var(--tw-content);
+  height: 1rem;
 }
 
 .after\:w-0::after {

@@ -3,7 +3,7 @@
   <section class="w-4/5 mt-2 flex flex-col gap-4 h-400 overflow-scroll">
     <?php for ($i = 1; $i <= 10; $i++) { ?>
       <a href="#">
-        <article class="flex gap-6 border-b pb-5 items-center h-10">
+        <article class="flex gap-6 border-b pb-5 items-center h-2">
           <span class="text-[8px] text-white bg-sky-600 px-2 w-fit h-4">
             2022/10/10
           </span>

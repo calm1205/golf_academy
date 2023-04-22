@@ -1,4 +1,4 @@
-<div class="flex justify-center items-center gap-10">
+<div class="flex justify-start items-center gap-10">
   <img src="./asset/junior/junior.png" />
 
   <div class="flex flex-col">

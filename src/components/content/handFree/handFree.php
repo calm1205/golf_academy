@@ -1,5 +1,5 @@
 <div>
-  <div class="flex justify-center items-center gap-10">
+  <div class="flex justify-start items-center gap-10">
     <img src="./asset/handFree/clubs.png" />
 
     <div class="flex flex-col">
@@ -11,5 +11,10 @@
     </div>
   </div>
 
-  <div class="mt-10 text-center">[未]スタッフ紹介を見る</div>
+  <div class="mt-10 text-center">
+    <?php
+    $button = 'レンタル用品一覧を見る';
+    include $uiPartsPath . '/button/button.php'
+    ?>
+  </div>
 </div>

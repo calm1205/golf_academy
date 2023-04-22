@@ -1,7 +1,7 @@
 <?php include __DIR__ . '/top/top.php' ?>
 
 <div class="mt-12">
-  <?php include 'baloon/baloon.php'; ?>
+  <?php include 'balloon/balloon.php'; ?>
   <p class="text-center whitespace-pre-line mt-3">
     最新のトラックマンを導入した高精度な打球の分析と、
     ツアープロによるマンツーマンレッスンで、

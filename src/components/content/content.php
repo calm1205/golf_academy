@@ -1,7 +1,5 @@
 <?php include __DIR__ . '/top/top.php' ?>
 
-
-
 <div class="mt-12">
   <?php include 'baloon/baloon.php'; ?>
   <p class="text-center whitespace-pre-line mt-3">

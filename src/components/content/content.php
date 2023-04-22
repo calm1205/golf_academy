@@ -14,18 +14,27 @@
 
 <?php
 $title = 'After Golf Studioのご紹介';
-$children = file_get_contents($absolutePath . '/components/content/introduction/introduction.php');
-include $uiPartsPath . '/section/section.php' ?>
+ob_start();
+include 'introduction/introduction.php';
+$children = ob_get_clean();
+include $uiPartsPath . '/section/section.php'
+?>
 
 <?php
 $title = 'レッスンスタッフのご紹介';
-$children = file_get_contents($absolutePath . '/components/content/lessonStaff/lessonStaff.php');
-include $uiPartsPath . '/section/section.php' ?>
+ob_start();
+include 'lessonStaff/lessonStaff.php';
+$children = ob_get_clean();
+include $uiPartsPath . '/section/section.php'
+?>
 
 <?php
 $title = '手ぶらでレッスン受講が可能!';
-$children = file_get_contents($absolutePath . '/components/content/handFree/handFree.php');
-include $uiPartsPath . '/section/section.php' ?>
+ob_start();
+include 'handFree/handFree.php';
+$children = ob_get_clean();
+include $uiPartsPath . '/section/section.php'
+?>
 
 <?php
 $title = 'ジュニアゴルフレッスンも大募集!';

@@ -1,5 +1,4 @@
 <!-- After Golf Studioのご紹介 -->
-
 <div class="flex flex-col gap-4">
   <div class="flex items-center">
     <img src="./asset/introduction/trackman.png" />

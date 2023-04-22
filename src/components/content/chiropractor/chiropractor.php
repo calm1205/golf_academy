@@ -1,4 +1,4 @@
-<div class="flex justify-center items-center gap-10">
+<div class="flex justify-start items-center gap-10">
   <img src="./asset/chiropractor/chiropractor.png" />
 
   <div class="flex flex-col">

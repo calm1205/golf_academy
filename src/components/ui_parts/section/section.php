@@ -9,6 +9,6 @@
   <?php include $uiPartsPath . '/title/title.php'; ?>
 </div>
 
-<div class="w-4/5 mx-auto m-10">
+<div class="w-4/5 max-w-6xl mx-auto m-10">
   <?php echo $children ?>
 </div>

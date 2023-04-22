@@ -1,5 +1,4 @@
 <!-- After Golf Studioのご紹介 -->
-
 <div class="flex flex-col gap-4">
   <div class="flex items-center">
     <img src="./asset/introduction/trackman.png" />
@@ -19,6 +18,9 @@
   </div>
 
   <div class="flex justify-center">
-    <p>[未]ここにボタン</p>
+    <?php
+    $button = 'レッスンの詳細を見る';
+    include $uiPartsPath . '/button/button.php'
+    ?>
   </div>
 </div>

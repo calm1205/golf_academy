@@ -1,12 +1,15 @@
 <?php include __DIR__ . '/top/top.php' ?>
 
-<div class="h-80"></div>
 
-<?php include 'baloon/baloon.php'; ?>
-<div class="h-28 flex justify-center items-center">
 
-  [未]ゴルフをこれから始める人も！
-  もっと上達したい人も！ 大歓迎！
+<div class="mt-12">
+  <?php include 'baloon/baloon.php'; ?>
+  <p class="text-center whitespace-pre-line mt-3">
+    最新のトラックマンを導入した高精度な打球の分析と、
+    ツアープロによるマンツーマンレッスンで、
+    あなたのゴルフ上達を強力にサポート！<br />
+    After Golf Studioは、ゴルフを愛する全ての人を応援します。
+  </p>
 </div>
 
 <?php

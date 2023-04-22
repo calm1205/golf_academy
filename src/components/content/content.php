@@ -48,3 +48,4 @@ include $uiPartsPath . '/section/section.php' ?>
 </div>
 
 <?php include 'button.php'; ?>
+<?php include 'guidance/guidance.php'; ?>

@@ -22,7 +22,14 @@
 
 <body>
   <?php include $absoluteIncludePath . '/components/header/header.php'; ?>
-  <?php include $absoluteIncludePath . '/components/content/content.php'; ?>
+
+  <?php $path = $_SERVER['REQUEST_URI'] ?>
+  <?php if (strstr($path, 'rental')) : ?>
+    <h1>レンタル</h1>
+  <?php else :  ?>
+    <?php include $absoluteIncludePath . '/components/content/content.php'; ?>
+  <?php endif; ?>
+
   <?php include $absoluteIncludePath . '/components/footer/footer.php'; ?>
 </body>
 

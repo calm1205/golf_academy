@@ -1,6 +1,6 @@
 <div>
   <div class="flex justify-start items-center gap-10">
-    <img src="./asset/lesson/staff.png" />
+    <img src="<?php echo $absoluteUriPath ?>/asset/lesson/staff.png" />
 
     <div class="flex flex-col">
       <h3 class="text-2xl">代表コーチ: タイガー・ウッズプロ</h3>

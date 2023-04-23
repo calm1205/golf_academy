@@ -38,4 +38,4 @@
       </div>
     </div>
   </div>
-  <?php include './components/footer/copyright.php'; ?>
+  <?php include $absoluteIncludePath . '/components/footer/copyright.php'; ?>

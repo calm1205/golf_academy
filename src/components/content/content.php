@@ -36,18 +36,22 @@ include $uiPartsPath . '/section/section.php'
 
 <?php
 $title = 'ジュニアゴルフレッスンも大募集!';
-$children = file_get_contents($absolutePath . '/components/content/junior/junior.php');
+ob_start();
+include 'junior/junior.php';
+$children = ob_get_clean();
 include $uiPartsPath . '/section/section.php' ?>
 
 <?php
 $title = 'ゴルファー専門整体も併設';
-$children = file_get_contents($absolutePath . '/components/content/chiropractor/chiropractor.php');
+ob_start();
+include 'chiropractor/chiropractor.php';
+$children = ob_get_clean();
 include $uiPartsPath . '/section/section.php' ?>
 
 <?php
 $title = 'ニュース';
 ob_start();
-include $absolutePath . '/components/content/news/news.php';
+include $absoluteIncludePath . '/components/content/news/news.php';
 $children = ob_get_clean();
 include $uiPartsPath . '/section/section.php' ?>
 

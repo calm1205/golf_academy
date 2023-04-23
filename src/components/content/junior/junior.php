@@ -1,5 +1,5 @@
 <div class="flex justify-start items-center gap-10">
-  <img src="./asset/junior/junior.png" />
+  <img src="<?php echo $absoluteUriPath ?>/asset/junior/junior.png" />
 
   <div class="flex flex-col">
     <p class="text-base whitespace-pre-line">

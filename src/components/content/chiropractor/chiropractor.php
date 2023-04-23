@@ -1,5 +1,5 @@
 <div class="flex justify-start items-center gap-10">
-  <img src="./asset/chiropractor/chiropractor.png" />
+  <img src="<?php echo $absoluteUriPath ?>/asset/chiropractor/chiropractor.png" />
 
   <div class="flex flex-col">
     <p class="text-base whitespace-pre-line">

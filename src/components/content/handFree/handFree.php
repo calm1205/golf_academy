@@ -1,6 +1,6 @@
 <div>
   <div class="flex justify-start items-center gap-10">
-    <img src="./asset/handFree/clubs.png" />
+    <img src="<?php echo $absoluteUriPath ?>/asset/handFree/clubs.png" />
 
     <div class="flex flex-col">
       <p class="text-base whitespace-pre-line">

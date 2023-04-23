@@ -12,5 +12,6 @@
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "files.autoSave": "onFocusChange",
-  "workbench.colorTheme": "One Dark Pro"
+  "workbench.colorTheme": "One Dark Pro",
+  "cSpell.ignoreWords": ["tailwindcss"]
 }

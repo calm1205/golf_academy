@@ -4,10 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd src && php -S localhost:8000",
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/style.css --watch",
-    
-    "": "wordpressのthemeとしてimportするためのzip生成",
-    "zip": "zip -r golfTheme.zip src"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/style.css --watch"
   },
   "devDependencies": {
     "prettier": "^2.8.7",

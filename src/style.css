@@ -1,0 +1,12 @@
+/*
+Theme Name: AfterGolfStudioTheme
+Description: AfterGolfStudioのTheme
+Author: 森山 凪
+Version: 1.0.0
+*/
+
+* {
+  color: #333333;
+  box-sizing: border-box;
+  font-family: 'Yu Gothic';
+}

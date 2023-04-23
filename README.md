@@ -17,73 +17,27 @@ styleの適応は`tailwindcss`を採用した。
 <summary>git clone</summary>
 
 ```zsh
-% git clone git@github.com:...
+% cd ./Local Sites/golfacademy/app/public/wp-content/themes
+% git clone ...
 ```
 
 </details>
 
 <details>
-<summary>homebrewのinstall</summary>
-
-[homebrew サイト](https://brew.sh/index_ja)
+<summary>npm install</summary>
 
 ```zsh
-% /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-</details>
-
-<details>
-<summary>phpのinstall</summary>
-
-```zsh
-% brew install php@8.1php # macのメモリがIntelの場合
-% arch -arm64 brew install php@8.1php # macのメモリがM1の場合
-```
-
-php のパスを通す。
-
-```zsh
-% echo 'export PATH="/opt/homebrew/opt/php@8.1/bin:$PATH"' >> ~/.zshrc
-% source ~/.zshrc
-```
-
-インストール確認
-
-```zsh
-% php -v
-PHP 8.1.17 (cli) (built: Mar 16 2023 13:07:08) (NTS)
-Copyright (c) The PHP Group
-Zend Engine v4.1.17, Copyright (c) Zend Technologies
-    with Zend OPcache v8.1.17, Copyright (c), by Zend Technologies
-```
-
-</details>
-
-<details>
-<summary>nodeのinstall</summary>
-
-[nodebrew](https://github.com/hokaccha/nodebrew)
-
-```zsh
-% brew install nodebrew
-% echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zshrc
-% source ~/.zshrc
-% nodebrew install v18.15.0
-```
-
-インストール確認
-
-```zsh
-% nodebrew use v18.15.0
-% node -v
-v18.15.0
-```
-npmのパッケージ インストール
-
-```zsh
+% cd ./Local Sites/golfacademy/app/public/wp-content/themes/golf_academy
 % npm install
+% npm run tailwind # cssのbuild. tailwind.cssというファイルが生成されればOK
 ```
+
+</details>
+
+<details>
+<summary>wordpressのテーマ適応</summary>
+
+外観 > テーマ > AfterGolfStudioThemeを選択
 
 </details>
 
@@ -95,20 +49,6 @@ npmのパッケージ インストール
 - "bradlc.vscode-tailwindcss"
 
 </details>
-
-<br><br>
-
-## 🏌🏻 ローカルサーバ起動
-
-```zsh
-% npm run start
-```
-
-tailwindcss の css 監視 & 自動ビルド
-
-```
-% npm run tailwind
-```
 
 <br><br>
 

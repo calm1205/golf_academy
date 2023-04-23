@@ -14,6 +14,11 @@ styleの適応は`tailwindcss`を採用した。
 ## ⚙️ 環境構築
 
 <details>
+<summary>Local</summary>
+[Local](https://localwp.com/)(wordpressをローカル起動できるアプリケーション)のinstall
+</details>
+
+<details>
 <summary>git clone</summary>
 
 ```zsh

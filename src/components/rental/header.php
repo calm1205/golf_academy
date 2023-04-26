@@ -1,0 +1,1 @@
+<img src="./header.php" alt="ヘッダー画像">

@@ -1,4 +1,4 @@
-<?php include $absoluteIncludePath . '/components/rental/header.php'; ?>
+<?php include $absoluteIncludePath . '/components/rental/header/header.php'; ?>
 
 <?php
 $title = 'レンタルクラブ';
@@ -11,7 +11,7 @@ include $uiPartsPath . '/section/section.php'
 <?php
 $title = 'レンタルシューズ';
 ob_start();
-include $absoluteIncludePath . '/components/rental/shoes.php';
+include $absoluteIncludePath . '/components/rental/shoes/shoes.php';
 $children = ob_get_clean();
 include $uiPartsPath . '/section/section.php'
 ?>
@@ -19,7 +19,7 @@ include $uiPartsPath . '/section/section.php'
 <?php
 $title = 'レンタルグローブ';
 ob_start();
-include $absoluteIncludePath . '/components/rental/glove.php';
+include $absoluteIncludePath . '/components/rental/glove/glove.php';
 $children = ob_get_clean();
 include $uiPartsPath . '/section/section.php'
 ?>

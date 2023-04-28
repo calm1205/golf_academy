@@ -8,3 +8,7 @@
     </p>
   </div>
 </div>
+
+<?php
+include 'clubTable.php';
+?>

@@ -1,6 +1,6 @@
 <h2 class="border-b-4 m-0 p-0 mb-1 border-blue-400 mt-[100px] font-bold text-2xl">セットリスト</h2>
 
-<table class="text-left [&_th]:font-bold [&_th]:text-base [&_th]:w-[160px] [&_th]:py-3 [&_td]:pl-10 [&_tr]:border-t [&_li]:text-base [&_li]:mt-2 [&_ul]:mt-4 [&_ul]:mb-6">
+<table class="text-left [&_th]:font-bold [&_th]:text-base [&_th]:w-[160px] [&_th]:py-3 [&_td]:pl-10 [&_tr]:border-b [&_li]:text-base [&_li]:mt-2 [&_ul]:mt-6 [&_ul]:mb-6">
   <tr>
     <th>
       ドライバー

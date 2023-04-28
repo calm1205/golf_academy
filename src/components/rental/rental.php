@@ -1,6 +1,14 @@
 <?php include $absoluteIncludePath . '/components/rental/header.php'; ?>
 
 <?php
+$title = 'レンタルクラブ';
+ob_start();
+include $absoluteIncludePath . '/components/rental/club/club.php';
+$children = ob_get_clean();
+include $uiPartsPath . '/section/section.php'
+?>
+
+<?php
 $title = 'レンタルシューズ';
 ob_start();
 include $absoluteIncludePath . '/components/rental/shoes.php';

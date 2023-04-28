@@ -1,1 +1,1 @@
-<img src="./header.php" alt="ヘッダー画像">
+<img src="<?php echo $absoluteUriPath ?>/asset/rental/header.svg">

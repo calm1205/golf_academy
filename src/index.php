@@ -25,7 +25,7 @@
 
   <?php $path = $_SERVER['REQUEST_URI'] ?>
   <?php if (strstr($path, 'rental')) : ?>
-    <?php include $absoluteIncludePath . '/components/rental/header.php'; ?>
+    <?php include $absoluteIncludePath . '/components/rental/rental.php'; ?>
   <?php else :  ?>
     <?php include $absoluteIncludePath . '/components/content/content.php'; ?>
   <?php endif; ?>

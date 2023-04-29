@@ -10,50 +10,52 @@
   </p>
 </div>
 
-<?php
-$title = 'After Golf Studioのご紹介';
-ob_start();
-include 'introduction/introduction.php';
-$children = ob_get_clean();
-include $uiPartsPath . '/section/section.php'
-?>
+<div class="flex flex-col gap-12 mt-14">
+  <?php
+  $title = 'After Golf Studioのご紹介';
+  ob_start();
+  include 'introduction/introduction.php';
+  $children = ob_get_clean();
+  include $uiPartsPath . '/section/section.php'
+  ?>
 
-<?php
-$title = 'レッスンスタッフのご紹介';
-ob_start();
-include 'lessonStaff/lessonStaff.php';
-$children = ob_get_clean();
-include $uiPartsPath . '/section/section.php'
-?>
+  <?php
+  $title = 'レッスンスタッフのご紹介';
+  ob_start();
+  include 'lessonStaff/lessonStaff.php';
+  $children = ob_get_clean();
+  include $uiPartsPath . '/section/section.php'
+  ?>
 
-<?php
-$title = '手ぶらでレッスン受講が可能!';
-ob_start();
-include 'handFree/handFree.php';
-$children = ob_get_clean();
-include $uiPartsPath . '/section/section.php'
-?>
+  <?php
+  $title = '手ぶらでレッスン受講が可能!';
+  ob_start();
+  include 'handFree/handFree.php';
+  $children = ob_get_clean();
+  include $uiPartsPath . '/section/section.php'
+  ?>
 
-<?php
-$title = 'ジュニアゴルフレッスンも大募集!';
-ob_start();
-include 'junior/junior.php';
-$children = ob_get_clean();
-include $uiPartsPath . '/section/section.php' ?>
+  <?php
+  $title = 'ジュニアゴルフレッスンも大募集!';
+  ob_start();
+  include 'junior/junior.php';
+  $children = ob_get_clean();
+  include $uiPartsPath . '/section/section.php' ?>
 
-<?php
-$title = 'ゴルファー専門整体も併設';
-ob_start();
-include 'chiropractor/chiropractor.php';
-$children = ob_get_clean();
-include $uiPartsPath . '/section/section.php' ?>
+  <?php
+  $title = 'ゴルファー専門整体も併設';
+  ob_start();
+  include 'chiropractor/chiropractor.php';
+  $children = ob_get_clean();
+  include $uiPartsPath . '/section/section.php' ?>
 
-<?php
-$title = 'ニュース';
-ob_start();
-include 'news/news.php';
-$children = ob_get_clean();
-include $uiPartsPath . '/section/section.php' ?>
+  <?php
+  $title = 'ニュース';
+  ob_start();
+  include 'news/news.php';
+  $children = ob_get_clean();
+  include $uiPartsPath . '/section/section.php' ?>
+</div>
 
 <?php include $uiPartsPath . '/guidance/guidance.php'; ?>
 <?php include $uiPartsPath . '/access/map.php'; ?>

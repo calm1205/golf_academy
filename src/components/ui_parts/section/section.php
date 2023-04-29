@@ -6,7 +6,7 @@
 */ ?>
 
 
-<h2 class="mt-[100px]">
+<h2>
   <?php include $uiPartsPath . '/title/title.php'; ?>
 </h2>
 

@@ -5,10 +5,10 @@
   </a>
 
   <nav class="phone:hidden flex w-fit items-end h-24 pb-3">
-    <?php include 'menu.php' ?>
+    <?php include 'menu/menu.php' ?>
   </nav>
 
   <nav class="phone:flex hidden">
-    <?php include 'menu.phone.php' ?>
+    <?php include 'menu/menu.phone.php' ?>
   </nav>
 </header>

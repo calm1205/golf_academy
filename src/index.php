@@ -27,14 +27,14 @@ include $uiPartsPath . '/header/header.php';
 ?>
 
 <body>
-  <?php $path = $_SERVER['REQUEST_URI'] ?>
-  <?php if (strstr($path, 'rental')) : ?>
-    <?php include $featuresPath . '/rental/rental.php'; ?>
-  <?php elseif (strstr($path, 'facility')) : ?>
-    <?php include $featuresPath . '/facility/facility.php'; ?>
-  <?php else :  ?>
-    <?php include $featuresPath . '/top/top.php'; ?>
-  <?php endif; ?>
+  <?php
+  $path = $_SERVER['REQUEST_URI'];
+
+  if (strstr($path, 'rental')) : include $featuresPath . '/rental/rental.php';
+  elseif (strstr($path, 'facility')) : include $featuresPath . '/facility/facility.php';
+  else : include $featuresPath . '/top/top.php';
+  endif;
+  ?>
 </body>
 
 <?php

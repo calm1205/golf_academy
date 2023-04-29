@@ -1,6 +1,6 @@
 <div>
   <div class="flex justify-start items-center gap-10 phone:flex-col">
-    <img src="<?php echo $absoluteUriPath ?>/asset/lesson/staff.png" />
+    <img src="<?php echo $absoluteUriPath ?>/asset/lesson/staff.png" class="w-[calc(100%-32px)]" />
 
     <div class="flex flex-col phone:text-left">
       <h3 class="text-2xl">代表コーチ<br>タイガー・ウッズプロ</h3>

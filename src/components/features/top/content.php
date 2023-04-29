@@ -51,7 +51,7 @@ include $uiPartsPath . '/section/section.php' ?>
 <?php
 $title = 'ニュース';
 ob_start();
-include $absoluteIncludePath . '/components/content/news/news.php';
+include 'news/news.php';
 $children = ob_get_clean();
 include $uiPartsPath . '/section/section.php' ?>
 

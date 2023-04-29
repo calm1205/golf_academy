@@ -13,10 +13,10 @@ module.exports = {
       },
     },
     screens: {
-      phone: '420px',
-      tablet: '640px',
-      laptop: '1024px',
-      desktop: '1280px',
+      phone: { max: '420px' },
+      tablet: { max: '640px' },
+      laptop: { max: '1025px' },
+      desktop: { max: '9999px' },
     },
     borderWidth: {
       DEFAULT: '1px',

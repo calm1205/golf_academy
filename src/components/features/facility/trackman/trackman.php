@@ -1,5 +1,3 @@
-<!-- トラックマンを使用した最新鋭の練習設備 -->
-
 <div class="flex flex-col gap-4">
   <div class="flex items-center">
     <img src="<?php echo $absoluteUriPath ?>/asset/facility/trackman/trackman1.png" />

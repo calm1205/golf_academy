@@ -2,8 +2,8 @@
 <html lang="ja">
 
 <head>
-  <!-- パスの定義 -->
   <?php
+  // パス定義
   $absoluteIncludePath = get_template_directory();
   $absoluteUriPath = get_template_directory_uri();
   $featuresPath = $absoluteIncludePath . '/components/features';
@@ -21,8 +21,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<!-- header -->
-<?php include $uiPartsPath . '/header/header.php'; ?>
+<?php
+// header
+include $uiPartsPath . '/header/header.php';
+?>
 
 <body>
   <?php $path = $_SERVER['REQUEST_URI'] ?>
@@ -35,7 +37,9 @@
   <?php endif; ?>
 </body>
 
-<!-- footer -->
-<?php include $uiPartsPath . '/footer/footer.php'; ?>
+<?php
+// footer
+include $uiPartsPath . '/footer/footer.php';
+?>
 
 </html>

@@ -32,7 +32,7 @@
     <?php include $absoluteIncludePath . '/components/content/content.php'; ?>
   <?php endif; ?>
 
-  <?php include $absoluteIncludePath . '/components/footer/footer.php'; ?>
+  <?php include $uiPartsPath . '/footer/footer.php'; ?>
 </body>
 
 </html>

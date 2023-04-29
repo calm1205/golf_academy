@@ -4,3 +4,5 @@
   <li>スタッフ紹介</li>
   <li>アクセス</li>
 </ul>
+
+<i class="fa-solid fa-bars fa-2xl text-blue-400 hidden phone:block mr-4  my-7"></i>

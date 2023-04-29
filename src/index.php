@@ -15,9 +15,10 @@
 
   <title>After Golf Studio</title>
   <link rel="icon" type="image/svg+xml" href='<?php echo $absoluteUriPath ?>/asset/logo.svg' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="<?php echo $absoluteUriPath ?>/style.css" />
   <link rel="stylesheet" href="<?php echo $absoluteUriPath ?>/tailwind.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 
 <body>

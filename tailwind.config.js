@@ -2,6 +2,9 @@
 module.exports = {
   content: ['./src/**/*.{html,php}'],
   theme: {
+    screens: {
+      phone: { max: '639px' },
+    },
     extend: {
       colors: {
         primary: {

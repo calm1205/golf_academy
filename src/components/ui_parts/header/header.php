@@ -1,4 +1,4 @@
-<header class="h-24 p-2 flex sticky top-0 w-full items-center justify-between bg-white z-50 gap-4">
+<header class="h-24 p-2 flex sticky top-0 w-full items-center justify-between bg-white z-50 gap-6">
 
   <a href="/" class="cursor-pointer flex items-center gap-3">
     <img class="" src="<?php echo $absoluteUriPath ?>/asset/header/logo.png" />

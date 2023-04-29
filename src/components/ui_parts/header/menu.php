@@ -1,4 +1,4 @@
-<ul class="hidden gap-6 text-base whitespace-nowrap tablet:flex">
+<ul class="hidden gap-3 text-base whitespace-nowrap tablet:flex">
   <li>
     <a href="/facility">施設概要</a>
   </li>

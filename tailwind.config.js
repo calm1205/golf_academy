@@ -12,6 +12,12 @@ module.exports = {
         },
       },
     },
+    screens: {
+      phone: '420px',
+      tablet: '640px',
+      laptop: '1024px',
+      desktop: '1280px',
+    },
     borderWidth: {
       DEFAULT: '1px',
       0: '0',
@@ -26,5 +32,4 @@ module.exports = {
       40: '40px',
     },
   },
-  plugins: [],
 };

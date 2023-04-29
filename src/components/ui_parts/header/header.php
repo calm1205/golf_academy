@@ -4,7 +4,7 @@
     <img class="" src="<?php echo $absoluteUriPath ?>/asset/header/logo.png" />
   </a>
 
-  <div class="flex w-fit items-end h-24 pb-3">
+  <nav class="flex w-fit items-end h-24 pb-3">
     <?php include 'menu.php' ?>
-  </div>
+  </nav>
 </header>

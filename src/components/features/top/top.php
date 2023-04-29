@@ -1,4 +1,4 @@
-<?php include __DIR__ . '/top/top.php' ?>
+<?php include 'header/header.php' ?>
 
 <div class="mt-12">
   <?php include $uiPartsPath . '/balloon/balloon.php'; ?>

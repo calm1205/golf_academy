@@ -31,7 +31,7 @@
   <?php elseif (strstr($path, 'facility')) : ?>
     <?php include $featuresPath . '/facility/facility.php'; ?>
   <?php else :  ?>
-    <?php include $featuresPath . '/top/content.php'; ?>
+    <?php include $featuresPath . '/top/top.php'; ?>
   <?php endif; ?>
 </body>
 

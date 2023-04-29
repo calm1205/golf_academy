@@ -1,11 +1,21 @@
 <?php
-// スマホ用メニューボタン
+// スマホ用メニュー開くボタン
 ?>
-<div id="menuButton" class="flex flex-col justify-evenly px-1 w-10 h-10 border border-primary-light rounded cursor-pointer">
+<div id="menuButtonOpen" class="flex flex-col justify-evenly px-1 w-10 h-10 border border-primary-light rounded cursor-pointer">
   <?php for ($i = 0; $i < 3; $i++) { ?>
     <hr class=" border-primary-light" />
   <?php } ?>
 </div>
+
+<?php
+// スマホ用メニュー閉じるボタン
+?>
+<div id="menuButtonClose" class="hidden justify-center items-center w-10 h-10 border border-primary-light rounded cursor-pointer">
+  <?php include "close.svg" ?>
+</div>
+
+
+
 
 <?php
 // スマホ用メニューをクリック時に展開されるメニュー

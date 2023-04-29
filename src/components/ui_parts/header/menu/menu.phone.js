@@ -1,6 +1,13 @@
-const menuButton = document.getElementById('menuButton');
+const menuButtonOpen = document.getElementById('menuButtonOpen');
+const menuButtonClose = document.getElementById('menuButtonClose');
 const expandedMenu = document.getElementById('expandedMenu');
 const prevent = (event) => event.preventDefault();
+
+// 表示・非表示の制御
+const toggleDisplay = (dom) => {
+  dom.classList.toggle('flex');
+  dom.classList.toggle('hidden');
+};
 
 // スクロール禁止
 const disableScroll = () => {
@@ -16,6 +23,8 @@ const toScrollable = () => {
 
 /** メニューの開閉 */
 const onClickMenuButton = () => {
+  toggleDisplay(menuButtonOpen);
+  toggleDisplay(menuButtonClose);
   expandedMenu.classList.toggle('fixed');
   expandedMenu.classList.toggle('hidden');
 
@@ -24,4 +33,5 @@ const onClickMenuButton = () => {
   isOpen ? disableScroll() : toScrollable();
 };
 
-menuButton.addEventListener('click', onClickMenuButton);
+menuButtonOpen.addEventListener('click', onClickMenuButton);
+menuButtonClose.addEventListener('click', onClickMenuButton);

@@ -9,6 +9,4 @@
   </div>
 </div>
 
-<?php
-include 'clubTable.php';
-?>
+<?php include 'clubTable.php' ?>

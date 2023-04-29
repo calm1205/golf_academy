@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <?php include $absoluteIncludePath . '/components/header/header.php'; ?>
+  <?php include $uiPartsPath . '/header/header.php'; ?>
 
   <?php $path = $_SERVER['REQUEST_URI'] ?>
   <?php if (strstr($path, 'rental')) : ?>

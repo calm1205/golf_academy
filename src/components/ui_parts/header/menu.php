@@ -1,4 +1,4 @@
-<ul class="flex gap-6 text-base">
+<ul class="flex gap-3 text-base whitespace-nowrap">
   <li>
     <a href="/facility">施設概要</a>
   </li>

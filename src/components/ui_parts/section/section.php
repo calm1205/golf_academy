@@ -6,10 +6,12 @@
 */ ?>
 
 
-<h2>
-  <?php include $uiPartsPath . '/title/title.php'; ?>
-</h2>
+<section>
+  <h2>
+    <?php include $uiPartsPath . '/title/title.php'; ?>
+  </h2>
 
-<section class="w-4/5 max-w-6xl mx-auto m-10 py-10">
-  <?php echo $children ?>
+  <div class="w-4/5 max-w-6xl mx-auto m-10 py-10 phone:py-4">
+    <?php echo $children ?>
+  </div>
 </section>

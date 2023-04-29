@@ -1,11 +1,11 @@
 <?php include 'header/header.php' ?>
 
-<div class="mt-12">
+<div class="mt-12 px-4">
   <?php include $uiPartsPath . '/balloon/balloon.php'; ?>
   <p class="text-center whitespace-pre-line mt-3">
     最新のトラックマンを導入した高精度な打球の分析と、
     ツアープロによるマンツーマンレッスンで、
-    あなたのゴルフ上達を強力にサポート！<br />
+    あなたのゴルフ上達を強力にサポート！
     After Golf Studioは、ゴルフを愛する全ての人を応援します。
   </p>
 </div>

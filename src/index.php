@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>After Golf Studio</title>
-  <link rel="icon" type="image/svg+xml" href='<?php echo $absoluteUriPath ?>/asset/logo.svg' />
+  <link rel="icon" type="image/svg+xml" href='<?php echo $absoluteUriPath ?>/asset/favicon.svg' />
   <link rel="stylesheet" href="<?php echo $absoluteUriPath ?>/style.css" />
   <link rel="stylesheet" href="<?php echo $absoluteUriPath ?>/tailwind.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

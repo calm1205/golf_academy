@@ -6,7 +6,8 @@
   <?php
   $absoluteIncludePath = get_template_directory();
   $absoluteUriPath = get_template_directory_uri();
-  $uiPartsPath = $absoluteIncludePath . '/components/ui_parts'
+  $featuresPath = $absoluteIncludePath . '/components/features';
+  $uiPartsPath = $absoluteIncludePath . '/components/ui_parts';
   ?>
 
   <meta charset="UTF-8">
@@ -26,7 +27,7 @@
 <body>
   <?php $path = $_SERVER['REQUEST_URI'] ?>
   <?php if (strstr($path, 'rental')) : ?>
-    <?php include $absoluteIncludePath . '/components/rental/rental.php'; ?>
+    <?php include $featuresPath . '/rental/rental.php'; ?>
   <?php elseif (strstr($path, 'facility')) : ?>
     <?php include $absoluteIncludePath . '/components/facility/facility.php'; ?>
   <?php else :  ?>

@@ -1,8 +1,8 @@
 <?php include __DIR__ . '/top/top.php' ?>
 
-<div class="mt-12">
+<div class="mt-12 text-center">
   <?php include 'balloon/balloon.php'; ?>
-  <p class="text-center whitespace-pre-line mt-3">
+  <p class="whitespace-pre-line mt-3 inline-block phone:text-left">
     最新のトラックマンを導入した高精度な打球の分析と、
     ツアープロによるマンツーマンレッスンで、
     あなたのゴルフ上達を強力にサポート！<br />

@@ -20,9 +20,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<body>
-  <?php include $uiPartsPath . '/header/header.php'; ?>
+<!-- header -->
+<?php include $uiPartsPath . '/header/header.php'; ?>
 
+<body>
   <?php $path = $_SERVER['REQUEST_URI'] ?>
   <?php if (strstr($path, 'rental')) : ?>
     <?php include $absoluteIncludePath . '/components/rental/rental.php'; ?>
@@ -31,8 +32,9 @@
   <?php else :  ?>
     <?php include $absoluteIncludePath . '/components/content/content.php'; ?>
   <?php endif; ?>
-
-  <?php include $uiPartsPath . '/footer/footer.php'; ?>
 </body>
+
+<!-- footer -->
+<?php include $uiPartsPath . '/footer/footer.php'; ?>
 
 </html>

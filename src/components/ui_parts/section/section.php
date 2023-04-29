@@ -6,9 +6,9 @@
 */ ?>
 
 
-<div class="mt-[100px]">
+<h2 class="mt-[100px]">
   <?php include $uiPartsPath . '/title/title.php'; ?>
-</div>
+</h2>
 
 <div class="w-4/5 max-w-6xl mx-auto m-10 py-10">
   <?php echo $children ?>

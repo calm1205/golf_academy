@@ -1,14 +1,14 @@
-<header class="h-24 p-2 flex sticky top-0 w-full items-center justify-between bg-white z-50 gap-6">
+<header class="h-24 px-4 flex sticky top-0 w-full items-center justify-between bg-white z-50 gap-6">
 
   <a href="/" class="cursor-pointer flex items-center gap-3">
     <img class="" src="<?php echo $absoluteUriPath ?>/asset/header/logo.png" />
   </a>
 
-  <nav class="tablet:hidden flex w-fit items-end h-24 pb-3">
+  <nav class="phone:hidden flex w-fit items-end h-24 pb-3">
     <?php include 'menu.php' ?>
   </nav>
 
-  <nav class="tablet:flex hidden">
+  <nav class="phone:flex hidden">
     <?php include 'menu.phone.php' ?>
   </nav>
 </header>

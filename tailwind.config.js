@@ -13,9 +13,8 @@ module.exports = {
       },
     },
     screens: {
-      phone: { max: '420px' },
-      tablet: { max: '640px' },
-      laptop: { max: '1025px' },
+      phone: { max: '768px' },
+      tablet: { max: '1280px' },
       desktop: { max: '9999px' },
     },
     borderWidth: {

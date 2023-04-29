@@ -8,3 +8,10 @@ include 'trackman/trackman.php';
 $children = ob_get_clean();
 include $uiPartsPath . '/section/section.php'
 ?>
+
+<?php
+$title = 'ゴルフに理想的な身体を作る「ゴルフ整体」';
+ob_start();
+include 'chiropractor/chiropractor.php';
+$children = ob_get_clean();
+include $uiPartsPath . '/section/section.php' ?>

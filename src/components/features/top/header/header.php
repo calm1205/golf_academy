@@ -1,4 +1,6 @@
-<!-- コンテンツ ヘッダー -->
+<?php // コンテンツ ヘッダー 
+?>
+
 <div class="relative h-fit w-full">
   <img src='<?php echo $absoluteUriPath ?>/asset/top/top.png' alt="" class="w-full object-cover">
 

@@ -1,8 +1,10 @@
-<!-- タイトルの斜めの線 -->
-
+<?php // タイトルの斜め線 
+?>
 <?php $width = 40; ?>
 
-<!-- 斜めの長さを三平方の定理で算出 -->
+
+<?php // 斜めの長さを三平方の定理で算出 
+?>
 <?php $line_length = round(sqrt(2 * ($width * $width))); ?>
 
 <div class="h-10" style="width: <?php echo $width; ?>px">

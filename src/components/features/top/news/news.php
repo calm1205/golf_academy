@@ -1,4 +1,3 @@
-<!-- 記事 -->
 <div class="flex justify-center mt-10">
   <section class="w-4/5 max-h-80 mt-2 flex flex-col overflow-y-scroll">
     <?php for ($i = 0; $i <= 10; $i++) { ?>

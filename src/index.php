@@ -2,11 +2,12 @@
 <html lang="ja">
 
 <head>
-  <!-- パスの定義 -->
   <?php
+  // パス定義
   $absoluteIncludePath = get_template_directory();
   $absoluteUriPath = get_template_directory_uri();
-  $uiPartsPath = $absoluteIncludePath . '/components/ui_parts'
+  $featuresPath = $absoluteIncludePath . '/components/features';
+  $uiPartsPath = $absoluteIncludePath . '/components/ui_parts';
   ?>
 
   <meta charset="UTF-8">
@@ -20,19 +21,25 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
+<?php
+// header
+include $uiPartsPath . '/header/header.php';
+?>
+
 <body>
-  <?php include $absoluteIncludePath . '/components/header/header.php'; ?>
+  <?php
+  $path = $_SERVER['REQUEST_URI'];
 
-  <?php $path = $_SERVER['REQUEST_URI'] ?>
-  <?php if (strstr($path, 'rental')) : ?>
-    <?php include $absoluteIncludePath . '/components/rental/rental.php'; ?>
-  <?php elseif (strstr($path, 'facility')) : ?>
-    <?php include $absoluteIncludePath . '/components/facility/facility.php'; ?>
-  <?php else :  ?>
-    <?php include $absoluteIncludePath . '/components/content/content.php'; ?>
-  <?php endif; ?>
-
-  <?php include $absoluteIncludePath . '/components/footer/footer.php'; ?>
+  if (strstr($path, 'rental')) : include $featuresPath . '/rental/rental.php';
+  elseif (strstr($path, 'facility')) : include $featuresPath . '/facility/facility.php';
+  else : include $featuresPath . '/top/top.php';
+  endif;
+  ?>
 </body>
+
+<?php
+// footer
+include $uiPartsPath . '/footer/footer.php';
+?>
 
 </html>

@@ -1,5 +1,5 @@
 <div>
-  <div class="flex justify-start items-center gap-10">
+  <div class="flex justify-start items-center gap-10 phone:flex-col">
     <img src="<?php echo $absoluteUriPath ?>/asset/handFree/clubs.png" />
 
     <div class="flex flex-col">

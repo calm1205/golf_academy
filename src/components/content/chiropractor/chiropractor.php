@@ -1,4 +1,4 @@
-<div class="flex justify-start items-center gap-10">
+<div class="flex justify-start items-center gap-10 phone:flex-col">
   <img src="<?php echo $absoluteUriPath ?>/asset/chiropractor/chiropractor.png" />
 
   <div class="flex flex-col">

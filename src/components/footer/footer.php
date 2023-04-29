@@ -1,5 +1,5 @@
 <footer>
-  <div class="h-56 w-full bg-primary-exLight text-xs py-8 flex items-start justify-center gap-10">
+  <div class="h-56 w-full bg-primary-exLight text-xs py-8 flex items-start justify-center gap-10 phone:hidden">
 
     <div class="flex flex-col gap-2">
       <p><a href="#">HOME</a></p>
@@ -37,5 +37,29 @@
         <p>06-6786-8620</p>
       </div>
     </div>
+  </div>
+
+  <div class="hidden phone:flex flex-col px-6 gap-4 [&>*]:pb-4 bg-primary-exLight [&>*]:border-b">
+    <div class="">
+      <h3 class="py-4 font-normal text-lg text-center">ライジングレディース心斎橋ゴルフスタジオ</h3>
+      <p>
+        〒542-0086<br>
+        大阪府大阪市中央区西心斎橋1-10-15<br>
+        ヴィアイン心斎橋 1F
+      </p>
+      <div class="flex">
+        <i class="fa-solid fa-phone"></i>
+        <p>&nbsp; 06-6786-8620</p>
+      </div>
+
+    </div>
+
+    <p><a href="#">施設概要</a></p>
+    <p><a href="#">レンタル用品</a></p>
+    <p><a href="#">スタッフ紹介</a></p>
+    <p><a href="#">アクセス</a></p>
+    <p><a href="#">特定商取引に基づく表記</a></p>
+    <p><a href="#">プライバシーポリシー</a></p>
+    <p><a href="#">会員規約</a></p>
   </div>
   <?php include $absoluteIncludePath . '/components/footer/copyright.php'; ?>

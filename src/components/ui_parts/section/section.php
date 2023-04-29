@@ -1,9 +1,10 @@
-<!-- タイトル付きセクション -->
+<?php /*
+  概要: タイトル付きセクション
+  引数:
+    - title: タイトル
+    - children: コンテンツ
+*/ ?>
 
-<!-- 
-  title: タイトル
-  children: コンテンツ
- -->
 
 <div class="mt-[100px]">
   <?php include $uiPartsPath . '/title/title.php'; ?>

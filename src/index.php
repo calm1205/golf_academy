@@ -26,8 +26,6 @@
   <?php $path = $_SERVER['REQUEST_URI'] ?>
   <?php if (strstr($path, 'rental')) : ?>
     <?php include $absoluteIncludePath . '/components/rental/rental.php'; ?>
-  <?php elseif (strstr($path, 'facility')) : ?>
-    <?php include $absoluteIncludePath . '/components/facility/facility.php'; ?>
   <?php else :  ?>
     <?php include $absoluteIncludePath . '/components/content/content.php'; ?>
   <?php endif; ?>

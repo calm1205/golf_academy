@@ -1,4 +1,4 @@
-<ul class="flex gap-6 text-base">
+<ul class="hidden sm:flex gap-6 text-base">
   <li>
     <a href="/facility">施設概要</a>
   </li>

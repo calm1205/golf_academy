@@ -15,3 +15,10 @@ ob_start();
 include 'chiropractor/chiropractor.php';
 $children = ob_get_clean();
 include $uiPartsPath . '/section/section.php' ?>
+
+<?php
+$title = '施設概要';
+ob_start();
+include 'overview/overview.php';
+$children = ob_get_clean();
+include $uiPartsPath . '/section/section.php' ?>

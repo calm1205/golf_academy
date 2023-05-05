@@ -1,8 +1,8 @@
 <div class="flex justify-center mt-10">
-  <section class="w-4/5 max-h-80 mt-2 flex flex-col overflow-y-scroll">
-    <?php for ($i = 0; $i <= 10; $i++) { ?>
-      <a href="#" class="flex justify-between items-center border-b p-3">
-        <article class="flex gap-6 w-full">
+  <section class="w-4/5 max-h-80 flex flex-col overflow-y-scroll gap-5 ">
+    <?php for ($i = 0; $i < 10; $i++) { ?>
+      <a href="#" class="flex justify-between items-center border-b p-3 ">
+        <article class="flex gap-8 w-full">
           <span class="text-[8px] text-white bg-sky-600 p-1">
             2022/10/10
           </span>

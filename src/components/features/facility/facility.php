@@ -3,7 +3,7 @@
 
 <!-- トラックマンを使用した最新鋭の練習設備 -->
 <?php
-$title = 'トラックマンを使った最新鋭の練習設備';
+$title = 'トラックマンを使った<br class="hidden phone:block">最新鋭の練習設備';
 ob_start();
 include 'trackman/trackman.php';
 $children = ob_get_clean();
@@ -12,7 +12,7 @@ include $uiPartsPath . '/section/section.php'
 
 <!-- ゴルフに理想的な身体を作る「ゴルフ整体」 -->
 <?php
-$title = 'ゴルフに理想的な身体を作る「ゴルフ整体」';
+$title = 'ゴルフに理想的な身体を作る<br class="hidden phone:block">「ゴルフ整体」';
 ob_start();
 include 'chiropractor/chiropractor.php';
 $children = ob_get_clean();

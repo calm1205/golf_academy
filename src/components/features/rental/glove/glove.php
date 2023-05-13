@@ -1,5 +1,6 @@
-<div class="flex justify-start items-center gap-10">
-  <img src="<?php echo $absoluteUriPath ?>/asset/rental/glove.png" />
+<!-- desktop -->
+<div class="flex phone:flex-col justify-start items-center gap-10">
+  <img src="<?php echo $absoluteUriPath ?>/asset/rental/glove.png" class="w-[calc(100%-32px)]" />
 
   <div class="flex flex-col">
     <p class="text-base whitespace-pre-line">

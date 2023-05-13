@@ -14,9 +14,6 @@
   <?php include "close.svg" ?>
 </div>
 
-
-
-
 <?php
 // スマホ用メニューをクリック時に展開されるメニュー
 ?>
@@ -39,6 +36,4 @@
   </div>
 </div>
 
-
-<script src="<?php echo $absoluteUriPath . "/components/ui_parts/header/menu/menu.phone.js" ?>">
-</script>
+<script src="<?php echo $absoluteUriPath . "/components/ui_parts/header/menu/menu.phone.js" ?>"></script>

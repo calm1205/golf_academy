@@ -1,4 +1,3 @@
-<!-- desktop -->
 <div class="flex phone:flex-col justify-start items-center gap-10">
   <img src="<?php echo $absoluteUriPath ?>/asset/rental/glove.png" class="w-[calc(100%-32px)]" />
 

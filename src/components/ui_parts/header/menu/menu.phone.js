@@ -25,11 +25,11 @@ const toScrollable = () => {
 const onClickMenuButton = () => {
   toggleDisplay(menuButtonOpen);
   toggleDisplay(menuButtonClose);
-  expandedMenu.classList.toggle('fixed');
+  expandedMenu.classList.toggle('absolute');
   expandedMenu.classList.toggle('hidden');
 
   // スクロール制御
-  const isOpen = expandedMenu.classList.contains('fixed');
+  const isOpen = expandedMenu.classList.contains('absolute');
   isOpen ? disableScroll() : toScrollable();
 };
 

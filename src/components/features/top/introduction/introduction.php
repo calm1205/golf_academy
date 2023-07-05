@@ -8,26 +8,16 @@ $lesson = 'After Golf Studioではツアーの最前線で活躍するプロゴ�
 <?php
 // desktop 
 ?>
-<div class="flex phone:hidden flex-col gap-8">
-  <div class="flex items-center">
-    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/trackman.png" />
-    <div class="flex flex-col gap-4">
-      <hr class="w-full border-b border-solid border-primary-default" />
-      <p class="ml-4 text-base">
-        <?php echo $trackman ?>
-      </p>
-    </div>
+<div class="pt-16 pb-[100px] flex phone:hidden flex-col gap-10 items-center">
+  <div class="">
+    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/trackman.png">
+    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/newTrackman.png">
   </div>
 
-  <div class="flex items-center justify-end w-full">
-    <div class="flex flex-col gap-4 w-full">
-      <hr class="w-full border-b border-solid border-primary-default" />
-      <p class="mr-4 text-base text-right">
-        <?php echo $lesson ?>
-      </p>
-    </div>
-    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/lesson.png" />
+  <div class="">
+
   </div>
+
 </div>
 
 <?php

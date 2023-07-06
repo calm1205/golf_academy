@@ -28,29 +28,15 @@
   ?>
 
   <?php
-  $title = '手ぶらでレッスン受講が可能!';
+  $title = '施設案内';
   ob_start();
-  include 'handFree/handFree.php';
+  include 'facilityIntro/facilityInfo.php';
   $children = ob_get_clean();
   include $uiPartsPath . '/section/section.php'
   ?>
 
   <?php
-  $title = 'ジュニアゴルフレッスンも大募集!';
-  ob_start();
-  include 'junior/junior.php';
-  $children = ob_get_clean();
-  include $uiPartsPath . '/section/section.php' ?>
-
-  <?php
-  $title = 'ゴルファー専門整体も併設';
-  ob_start();
-  include 'chiropractor/chiropractor.php';
-  $children = ob_get_clean();
-  include $uiPartsPath . '/section/section.php' ?>
-
-  <?php
-  $title = 'ニュース';
+  $title = 'ニュース・お知らせ';
   ob_start();
   include 'news/news.php';
   $children = ob_get_clean();

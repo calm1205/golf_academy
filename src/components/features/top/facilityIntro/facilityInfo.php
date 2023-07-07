@@ -2,7 +2,7 @@
   <div class="relative h-[510px]">
     <img src="<?php echo $absoluteUriPath ?>/asset/handFree/clubs.png" class="absolute top-8 left-0 w-1/2 h-[400px]" />
     <img src="<?php echo $absoluteUriPath ?>/asset/handFree/newClub.png" class="absolute top-0 right-4 -skew-x-12 z-10 w-[72%] h-[510px]" />
-    <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[280px] right-0 z-50">
+    <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[160px] right-0 z-50">
       <h2 class="pl-[24px] text-blue-400 text-3xl font-bold">
         手ぶらでレッスン受講が可能！
       </h2>
@@ -10,6 +10,12 @@
       <p class="flex flex-col pl-[24px] gap-10 self-stretch">
         ゴルフクラブなどのレッスンで使用する道具は無料でレンタルをしております。<br>まだ道具を揃えていないビギナーの方でも、安心してレッスンを受けることが可能です。<br>レンタル用品の詳細は、以下のリンクよりご確認ください。
       </p>
+      <div class="ml-[24px] mt-2">
+        <?php
+        $button = 'レッスン用品一覧を見る';
+        include $uiPartsPath . '/button/button.php'
+        ?>
+      </div>
     </div>
   </div>
 
@@ -18,7 +24,7 @@
   <div class="relative h-[510px]">
     <img src="<?php echo $absoluteUriPath ?>/asset/junior/junior.png" class="absolute top-8 right-0 w-1/2 h-[400px]" />
     <img src="<?php echo $absoluteUriPath ?>/asset/junior/newJunior.png" class="absolute top-0 left-6 -skew-x-12 z-10 w-[72%] h-[510px]" />
-    <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[280px] left-0 z-50">
+    <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[260px] left-0 z-50">
       <h2 class="pl-[24px] text-blue-400 text-3xl font-bold">
         ジュニアゴルフレッスンも大募集！
       </h2>
@@ -35,7 +41,7 @@
   <div class="relative h-[510px]">
     <img src="<?php echo $absoluteUriPath ?>/asset/chiropractor/chiropractor.png" class="absolute top-8 left-0 w-1/2 h-[400px]" />
     <img src="<?php echo $absoluteUriPath ?>/asset/chiropractor/newChiropractor.png" class="absolute top-0 right-4 -skew-x-12 z-10 w-[72%] h-[510px]" />
-    <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[280px] right-0 z-50">
+    <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[260px] right-0 z-50">
       <h2 class="pl-[24px] text-blue-400 text-3xl font-bold">
         ゴルファー専門整体施設も併設
       </h2>

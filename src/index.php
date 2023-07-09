@@ -32,10 +32,10 @@
 
     if (strstr($path, 'rental')) : include $featuresPath . '/rental/rental.php';
     elseif (strstr($path, 'facility')) : include $featuresPath . '/facility/facility.php';
+    elseif (strstr($path, 'prices')) : include $featuresPath . '/prices/prices.php';
     else : include $featuresPath . '/top/top.php';
     endif;
     ?>
-  </div>
 </body>
 
 <?php include $uiPartsPath . '/footer/footer.php'; ?>

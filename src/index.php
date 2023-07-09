@@ -21,25 +21,23 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
-<?php
-// header
-include $uiPartsPath . '/header/header.php';
-?>
+<?php include $uiPartsPath . '/header/header.php'; ?>
+
 
 <body>
-  <?php
-  $path = $_SERVER['REQUEST_URI'];
+  <div class="bg-[url('asset/top/backgroundLogo.png')] bg-[50%] bg-repeat opacity-5 h-screen w-screen fixed top-0 z-0"></div>
+  <div class="relative top-0 z-10">
+    <?php
+    $path = $_SERVER['REQUEST_URI'];
 
-  if (strstr($path, 'rental')) : include $featuresPath . '/rental/rental.php';
-  elseif (strstr($path, 'facility')) : include $featuresPath . '/facility/facility.php';
-  else : include $featuresPath . '/top/top.php';
-  endif;
-  ?>
+    if (strstr($path, 'rental')) : include $featuresPath . '/rental/rental.php';
+    elseif (strstr($path, 'facility')) : include $featuresPath . '/facility/facility.php';
+    else : include $featuresPath . '/top/top.php';
+    endif;
+    ?>
+  </div>
 </body>
 
-<?php
-// footer
-include $uiPartsPath . '/footer/footer.php';
-?>
+<?php include $uiPartsPath . '/footer/footer.php'; ?>
 
 </html>

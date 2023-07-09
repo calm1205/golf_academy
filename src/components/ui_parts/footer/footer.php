@@ -1,4 +1,4 @@
-<footer>
+<footer class="relative z-10">
 
   <?php
   // pc

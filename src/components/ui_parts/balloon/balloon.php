@@ -1,15 +1,20 @@
-<div class="m-0 text-center tracking-wider p-0 text-xl relative
-before:content-[''] before:absolute before:w-16 before:h-16 before:border-t before:border-blue-400 before:-rotate-45 before:origin-bottom-left before:translate-x-8 before:translate-y-4
-">
-  <div class="text-center py-4 px-6 box-border border border-blue-400 w-auto text-2xl font-bold inline-block relative shadow-[4px_4px_0_0_rgba(66,165,245,1)] 
-  before:content-[''] before:w-0 before:h-0 before:absolute before:top-full before:left-1/2 before:border-32 before:-translate-x-1/2 before:border-blue-400 before:border-r-transparent before:border-b-transparent before:border-l-transparent  
-  after:content-[''] after:w-0 after:h-0 after:absolute after:top-full after:left-1/2 after:border-30 after:-translate-x-1/2 after:border-whiteafter:border-r-transparent after:border-b-transparent after:border-l-transparent">
-    <p class="m-0 p-0 relative
-    before:content-[''] before:absolute before:top-full before:left-1/2 before:w-12 before:h-12 before:border-l-4 before:border-blue-400 before:rotate-45 before:origin-bottom-left 
-    after:content-[''] after:absolute after:top-full after:left-1/2 after:w-24 after:h-[17px] after:bg-white after:-translate-x-1/2">
+<div class="flex justify-center">
+  <div class="relative h-[100px] w-[411px]">
+    <div class="w-[411px] h-[100px] absolute z-50 top-0 flex justify-center items-center font-bold text-2xl text-center">
       ゴルフをこれから始める人も！<br>
       もっと上達したい人も！ 大歓迎！
-    </p>
-    <hr class="w-16 border-blue-400 -rotate-45 mr-0 ml-auto translate-y-2 translate-x-12">
+    </div>
+
+    <!-- 背景の四角 -->
+    <div class="bg-white w-[411px] border border-primary-default h-[100px] absolute top-0 z-30"></div>
+    <div class="bg-primary-default w-[411px] h-[100px] absolute z-0 top-[4px] left-[4px]"></div>
+
+    <!-- 角の斜線 -->
+    <div class="h-[1px] w-[60px] bg-primary-default -rotate-45 absolute z-50 top-[10px] left-[-20px]"></div>
+    <div class="h-[1px] w-[60px] bg-primary-default -rotate-45 absolute z-50 bottom-[10px] right-[-20px]"></div>
+
+    <!-- 吹き出しの三角 -->
+    <div class="bg-white w-[50px] h-[50px] z-40 absolute bottom-[-20px] right-1/2 translate-x-1/2 rotate-45"></div>
+    <div class="bg-primary-default w-[50px] h-[50px] z-20 absolute bottom-[-24px] right-1/2 translate-x-1/2 rotate-45"></div>
   </div>
 </div>

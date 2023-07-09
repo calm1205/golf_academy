@@ -23,3 +23,4 @@ $chiropractor = "After Golfは整体を併設しているので、レッスン�
     </div>
 
   </div>
+</div>

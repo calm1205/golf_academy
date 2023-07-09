@@ -1,11 +1,14 @@
-<div class="flex phone:flex-col justify-start items-center gap-10">
-  <img src="<?php echo $absoluteUriPath ?>/asset/rental/glove.png" class="w-[calc(100%-32px)]" />
+<div class="phone:hidden shadow-lg mt-16">
+  <div class=" flex justify-start items-center ">
 
-  <div class="flex flex-col">
-    <p class="text-base whitespace-pre-line">
-      レンタルグローブは男性用のほかレディースサイズとジュニアサイズもご用意。
-      グローブを忘れてしまった、レッスン中に破れてしまったなどのトラブルがあった際は
-      ご利用ください。
-    </p>
+    <img src="<?php echo $absoluteUriPath ?>/asset/rental/glove.png" class="w-[540px] h-[420px]" />
+
+    <div class="flex flex-col">
+      <h3 class="text-3xl font-bold text-blue-400 px-10 ">レンタルグローブ</h3>
+      <hr class="w-full border-b border-solid border-primary-default self-stretch mt-6">
+      <p class="text-base whitespace-pre-line px-10 ">
+        レンタルグローブは男性用のほかレディースサイズとジュニアサイズもご用意。<br>グローブを忘れてしまった、レッスン中に破れてしまったなどのトラブルがあった際はご利用ください。
+      </p>
+    </div>
   </div>
 </div>

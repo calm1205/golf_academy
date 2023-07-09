@@ -24,14 +24,16 @@
 
   <section>
     <h2>気軽に始める基本コース</h2>
-    <tr>
-      <th>受講料金</th>
-      <td>15,000円</td>
-    </tr>
-    <tr>
-      <th>受講時間</th>
-      <td>1回50分 月2回</td>
-    </tr>
+    <table>
+      <tr>
+        <th>受講料金</th>
+        <td>15,000円</td>
+      </tr>
+      <tr>
+        <th>受講時間</th>
+        <td>1回50分 月2回</td>
+      </tr>
+    </table>
   </section>
 
   <section>

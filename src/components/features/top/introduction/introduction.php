@@ -8,26 +8,37 @@ $lesson = 'After Golf Studioではツアーの最前線で活躍するプロゴ�
 <?php
 // desktop 
 ?>
-<div class="flex phone:hidden flex-col gap-8">
-  <div class="flex items-center">
-    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/trackman.png" />
-    <div class="flex flex-col gap-4">
-      <hr class="w-full border-b border-solid border-primary-default" />
-      <p class="ml-4 text-base">
+<div class="pt-16 pb-[100px] flex phone:hidden flex-col gap-10">
+  <div class="relative h-[510px]">
+    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/trackman.png" class="absolute top-8 left-0 w-1/2 h-[400px]" />
+    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/newTrackman.png" class="absolute top-0 right-4 -skew-x-12 z-10 w-[72%] h-[510px]" />
+    <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[280px] right-0 z-50">
+      <h2 class="pl-[24px] text-blue-400 text-3xl font-bold">
+        トラックマンを使用した最新鋭の練習設備
+      </h2>
+      <hr class="w-full border-b border-solid border-primary-default self-stretch">
+      <p class="flex flex-col pl-[24px] gap-10 self-stretch">
         <?php echo $trackman ?>
       </p>
     </div>
   </div>
 
-  <div class="flex items-center justify-end w-full">
-    <div class="flex flex-col gap-4 w-full">
-      <hr class="w-full border-b border-solid border-primary-default" />
-      <p class="mr-4 text-base text-right">
+
+
+  <div class="relative h-[510px]">
+    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/lesson.png" class="absolute top-8 right-0 w-1/2 h-[400px]" />
+    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/newLesson.png" class="absolute top-0 left-6 -skew-x-12 z-10 w-[72%] h-[510px]" />
+    <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[280px] left-0 z-50">
+      <h2 class="pl-[24px] text-blue-400 text-3xl font-bold">
+        プロゴルファーのマンツーマンレッスン
+      </h2>
+      <hr class="w-full border-b border-solid border-primary-default self-stretch">
+      <p class="flex flex-col pl-[24px] gap-10 self-stretch">
         <?php echo $lesson ?>
       </p>
     </div>
-    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/lesson.png" />
   </div>
+
 </div>
 
 <?php

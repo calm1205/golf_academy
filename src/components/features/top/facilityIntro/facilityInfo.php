@@ -1,6 +1,6 @@
 <div class="pt-16 pb-[100px] flex phone:hidden flex-col gap-10">
   <div class="relative h-[510px]">
-    <img src="<?php echo $absoluteUriPath ?>/asset/handFree/newClub.png" class="absolute top-0 right-4 -skew-x-12 z-10 w-[72%] h-[510px]" />
+    <img src="<?php echo $absoluteUriPath ?>/asset/handFree/clubs.png" class="absolute top-8 left-0 w-1/2 h-[400px] z-20" />
     <div class="absolute top-0 right-4 w-[72%] h-full -skew-x-12  inline-block overflow-hidden">
       <img src="<?php echo $absoluteUriPath ?>/asset/handFree/clubs.png" class="w-full h-full skew-x-12 scale-125 opacity-20" />
     </div>

@@ -1,7 +1,7 @@
 <div class="border-x border-y block">
-  <h2 class="border-b py-6 w-full">注意事項</h2>
+  <h2 class="border-b text-center text-3xl font-bold py-6">注意事項</h2>
 
-  <div class="px-10 pb-10 block">
+  <div class="px-10 pt-6 pb-10">
     <h3 class="text-left font-bold ml-0 mr-auto text-xl">休会・退会について</h3>
 
     <ul class="mt-4 [&_li]:mb-4 [&_li]:text-lg text-left ml-0 mr-auto">

@@ -10,8 +10,11 @@ $lesson = 'After Golf Studioではツアーの最前線で活躍するプロゴ�
 ?>
 <div class="pt-16 pb-[100px] flex phone:hidden flex-col gap-10">
   <div class="relative h-[510px]">
-    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/trackman.png" class="absolute top-8 left-0 w-1/2 h-[400px]" />
-    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/newTrackman.png" class="absolute top-0 right-4 -skew-x-12 z-10 w-[72%] h-[510px]" />
+    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/trackman.png" class="absolute top-8 left-0 w-1/2 h-[400px] z-20" />
+    <div class="absolute top-0 right-4 w-[72%] h-full -skew-x-12  inline-block overflow-hidden">
+      <img src="<?php echo $absoluteUriPath ?>/asset/introduction/trackman.png" class="w-full h-full skew-x-12 scale-125 opacity-20" />
+    </div>
+
     <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[280px] right-0 z-50">
       <h2 class="pl-[24px] text-blue-400 text-3xl font-bold">
         トラックマンを使用した最新鋭の練習設備
@@ -21,13 +24,18 @@ $lesson = 'After Golf Studioではツアーの最前線で活躍するプロゴ�
         <?php echo $trackman ?>
       </p>
     </div>
+
   </div>
 
 
 
   <div class="relative h-[510px]">
-    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/lesson.png" class="absolute top-8 right-0 w-1/2 h-[400px]" />
-    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/newLesson.png" class="absolute top-0 left-6 -skew-x-12 z-10 w-[72%] h-[510px]" />
+    <img src="<?php echo $absoluteUriPath ?>/asset/introduction/lesson.png" class="absolute top-8 right-0 w-1/2 h-[400px] z-20" />
+
+    <div class="absolute top-0 left-4 w-[72%] h-full -skew-x-12  inline-block overflow-hidden">
+      <img src="<?php echo $absoluteUriPath ?>/asset/introduction/lesson.png" class="w-full h-full skew-x-12 scale-125 opacity-20" />
+    </div>
+
     <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[280px] left-0 z-50">
       <h2 class="pl-[24px] text-blue-400 text-3xl font-bold">
         プロゴルファーのマンツーマンレッスン

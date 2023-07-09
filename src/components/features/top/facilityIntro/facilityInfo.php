@@ -6,7 +6,7 @@
     <div class="absolute top-0 right-4 w-[72%] h-full -skew-x-12  inline-block overflow-hidden">
       <img src="<?php echo $absoluteUriPath ?>/asset/handFree/clubs.png" class="w-full h-full skew-x-12 scale-125 opacity-20" />
     </div>
-
+    
     <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[160px] right-0 z-50">
       <h2 class="pl-[24px] text-blue-400 text-3xl font-bold">
         手ぶらでレッスン受講が可能！
@@ -27,12 +27,13 @@
 
 
   <div class="relative h-[510px]">
+
     <img src="<?php echo $absoluteUriPath ?>/asset/junior/junior.png" class="absolute top-8 right-0 w-1/2 h-[400px] z-20" />
 
     <div class="absolute top-0 left-4 w-[72%] h-full -skew-x-12  inline-block overflow-hidden">
       <img src="<?php echo $absoluteUriPath ?>/asset/junior/junior.png" class="w-full h-full skew-x-12 scale-125 opacity-20" />
     </div>
-
+    
     <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[260px] left-0 z-50">
       <h2 class="pl-[24px] text-blue-400 text-3xl font-bold">
         ジュニアゴルフレッスンも大募集！
@@ -53,6 +54,7 @@
     </div>
 
     <div class="w-[72%] flex flex-col pt-10 pr-[24px] pb-10 items-start gap-4 bg-white shadow-lg absolute top-[280px] right-0 z-50">
+
       <h2 class="pl-[24px] text-blue-400 text-3xl font-bold">
         ゴルファー専門整体施設も併設
       </h2>
@@ -65,3 +67,4 @@
   </div>
 
 </div>
+

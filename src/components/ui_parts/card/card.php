@@ -11,14 +11,11 @@
   </h2>
 
   <hr class="w-full border-b border-solid border-primary-default">
-
-  <p class="pl-6 gap-10 self-stretch">
-    <?php echo $description ?>
-  </p>
+  <p class="pl-6 gap-10 whitespace-pre"> <?php echo $description ?> </p>
 
   <?php if ($button) { ?>
     <div class="ml-[24px] mt-2">
-      <?php include $uiPartsPath . '/button/button.php' ?>
+      <?php include $uiPartsPath . '/button/button.php'; ?>
     </div>
   <?php } ?>
 </div>

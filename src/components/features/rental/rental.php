@@ -12,7 +12,7 @@
   $description = "レンタルシューズも各サイズご用意しております。
   サンダルやブーツで来場いただいても、シューズを履き替えてレッスンを受講いただけます。";
   $image = $absoluteUriPath . "/asset/rental/shoes.svg";
-  include $uiPartsPath . '/card/card.php'
+  include 'card/card.php'
   ?>
 
   <div class="mt-16"></div>
@@ -21,7 +21,7 @@
   $description = "レンタルグローブは男性用のほかレディースサイズとジュニアサイズもご用意。
   グローブを忘れてしまった、レッスン中に破れてしまったなどのトラブルがあった際はご利用ください。";
   $image = $absoluteUriPath . "/asset/rental/glove.png";
-  include $uiPartsPath . '/card/card.php'
+  include 'card/card.php'
   ?>
 
 </div>

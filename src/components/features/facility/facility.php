@@ -6,7 +6,6 @@
   include 'trackman/trackman.php';
   ?>
 
-
   <?php
   // ゴルフに理想的な身体を作る「ゴルフ整体」
   include 'chiropractor/chiropractor.php';

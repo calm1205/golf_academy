@@ -1,23 +1,21 @@
 <?php /*
-  概要: カード
-  引数: 
-    - title: タイトル
-    - description: 説明文
-    - image: 画像URL
+  概要: topページのカード
+    title: string
+    description: string
+    button: string
 */ ?>
 
-<div class="phone:hidden bg-white border h-[400px]">
-  <div class="flex justify-start items-center pr-10">
-    <img class="h-[400px]" src="<?php echo $image ?>" />
+<div class="w-[800px] flex flex-col py-10 pr-6 gap-4 bg-white shadow-lg">
+  <h2 class="pl-6 text-blue-400 text-3xl font-bold">
+    <? echo $title ?>
+  </h2>
 
-    <div class="flex flex-col w-full">
-      <h3 class="text-3xl text-primary-default font-bold px-10">
-        <?php echo $title ?>
-      </h3>
-      <hr class="border-b border-solid border-primary-default self-stretch mt-6">
-      <p class="text-base whitespace-pre-line pl-10">
-        <?php echo $description ?>
-      </p>
+  <hr class="w-full border-b border-solid border-primary-default">
+  <p class="pl-6 gap-10 whitespace-pre"> <?php echo $description ?> </p>
+
+  <?php if ($button) { ?>
+    <div class="ml-[24px] mt-2">
+      <?php include $uiPartsPath . '/button/button.php'; ?>
     </div>
-  </div>
+  <?php } ?>
 </div>

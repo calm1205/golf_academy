@@ -14,6 +14,7 @@
     "入会金" => ["11,000円(税込)"],
     "事務手数料" => ["3,000円(税込)"]
   ];
+  $description = null;
   include 'section/section.php';
   ?>
 

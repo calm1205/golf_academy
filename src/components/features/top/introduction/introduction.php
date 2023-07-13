@@ -12,12 +12,14 @@ $lesson = 'After Golf Studioではツアーの最前線で活躍するプロゴ�
   $title = "トラックマンを使用した最新鋭の練習設備";
   $description = $trackman;
   $image = $absoluteUriPath . '/asset/introduction/trackman.png';
+  $button = null;
   include $uiPartsPath . '/card/imageCardRight.php' ?>
 
   <?php
   $title = "プロゴルファーのマンツーマンレッスン";
   $description = $lesson;
   $image = $absoluteUriPath . '/asset/introduction/lesson.png';
+  $button = null;
   include $uiPartsPath . '/card/imageCardLeft.php' ?>
 </div>
 

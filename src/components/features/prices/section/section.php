@@ -10,7 +10,7 @@
   <h2 class="font-bold text-2xl"> <?php echo $title ?> </h2>
 
   <div class="flex flex-col items-center">
-    <hr class="w-[100px] border-b border-solid border-[#333]">
+    <hr class="w-[100px] border-b border-solid border-[#333] mb-4">
 
     <?php if ($description) { ?>
       <p class="text-center whitespace-pre"> <?php echo $description ?> </p>

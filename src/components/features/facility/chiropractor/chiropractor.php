@@ -12,6 +12,7 @@ $chiropractor = "After Golfは整体を併設しているので、レッスン�
   $title = "ゴルフに理想的な身体を作る「ゴルフ整体」";
   $description = $chiropractor;
   $image = $absoluteUriPath . '/asset/chiropractor/chiropractor.png';
+  $button = null;
   include $uiPartsPath . '/card/imageCardRight.php' ?>
 
 </div>

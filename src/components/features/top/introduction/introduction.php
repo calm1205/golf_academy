@@ -35,6 +35,13 @@ $lesson = 'After Golf Studioではツアーの最前線で活躍するプロゴ�
   $button = null;
   include $uiPartsPath . '/card/phoneCard.php' ?>
 
+  <?php
+  $title = "プロゴルファーの<br>マンツーマンレッスン";
+  $description = $lesson;
+  $image = $absoluteUriPath . '/asset/introduction/lesson.png';
+  $button = null;
+  include $uiPartsPath . '/card/phoneCard.php' ?>
+
 </div>
 
 <div class="flex justify-center mt-8">

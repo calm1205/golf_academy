@@ -6,7 +6,7 @@
 */ ?>
 
 <div class="mx-4 rounded-2xl border flex flex-col gap-4 items-center overflow-hidden ">
-  <img src="<?php echo $image ?>" class="h-[280px] w-full">
+  <img src="<?php echo $image ?>" class="aspect-[7/4] w-full">
 
 
   <div class="flex flex-col px-4 items-start gap-2">

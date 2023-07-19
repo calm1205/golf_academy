@@ -9,11 +9,14 @@
 <section class="flex flex-col items-center gap-4">
   <h2 class="font-bold text-2xl"> <?php echo $title ?> </h2>
 
-  <div class="flex flex-col items-center">
+  <div class="flex flex-col items-center phone:my-4">
     <hr class="w-[100px] border-b border-solid border-[#333] mb-4">
 
     <?php if ($description) { ?>
-      <p class="text-center whitespace-pre"> <?php echo $description ?> </p>
+      <p class="phone:hidden text-center whitespace-normal"> <?php echo $description ?> </p>
+    <?php } ?>
+    <?php if ($description) { ?>
+      <p class="hidden phone:block text-left whitespace-normal"> <?php echo $description ?> </p>
     <?php } ?>
   </div>
 

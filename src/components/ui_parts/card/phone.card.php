@@ -5,7 +5,7 @@
     image: string
 */ ?>
 
-<div class="mx-4 rounded-2xl border flex flex-col gap-4 items-center overflow-hidden ">
+<div class="mx-4 rounded-2xl border phone:flex flex-col gap-4 items-center overflow-hidden hidden ">
   <img src="<?php echo $image ?>" class="aspect-[7/4] w-full">
 
 

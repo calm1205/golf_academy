@@ -27,8 +27,8 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <p>ライジングレディース心斎橋ゴルフスタジオ</p>
-    <p>〒542-0086<br>大阪府大阪市中央区西心斎橋1-10-15<br>ヴィアイン心斎橋 1F</p>
+    <p>ゴルトモアカデミー</p>
+    <p>〒347-0009 埼玉県加須市上三俣645ｰ1</p>
     <div class="flex mt-2 gap-1">
       <i class="fa-solid fa-phone"></i>
       <p>06-6786-8620</p>

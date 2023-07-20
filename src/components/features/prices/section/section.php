@@ -19,7 +19,7 @@
   </div>
 
   <table class="border-collapse border 
-  [&_th]:border [&_th]:w-[210px] [&_th]:py-4 [&_th]:font-normal
+  [&_th]:border [&_th]:w-[210px] [&_th]:px-10 [&_th]:py-4 [&_th]:font-normal
   [&_td]:border [&_td]:px-10 [&_td]:py-4
   ">
     <?php foreach ($table as $key => $value) { ?>

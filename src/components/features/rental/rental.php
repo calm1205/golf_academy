@@ -9,7 +9,7 @@
   <div class="mt-16"></div>
   <?php
   $title = "レンタルシューズ";
-  $description = "レンタルシューズも各サイズご用意しております。<br>
+  $description = "レンタルシューズも各サイズご用意しております。
   サンダルやブーツで来場いただいても、シューズを履き替えてレッスンを受講いただけます。";
   $image = $absoluteUriPath . '/asset/rental/shoes.svg';
   $button = null;

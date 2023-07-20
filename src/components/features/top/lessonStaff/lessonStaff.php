@@ -1,7 +1,7 @@
 <!-- desktop -->
 <div class="phone:hidden px-10 py-16 drop-shadow-lg bg-white rounded-2xl">
   <div class="flex justify-start items-center gap-10 ">
-    <img src="<?php echo $absoluteUriPath . '/asset/lesson/staff.png' ?>" />
+    <img class="max-w-sm w-2/5" src="<?php echo $absoluteUriPath . '/asset/lesson/staff.jpeg' ?>" />
     <div class="flex flex-col w-full">
       <h3 class="text-2xl">
         レッスンスタッフのご紹介
@@ -25,7 +25,7 @@
 
 <!-- phone -->
 <?php
-$image = $absoluteUriPath . '/asset/lesson/staff.png';
+$image = $absoluteUriPath . '/asset/lesson/staff.jpeg';
 ?>
 
 <div class="hidden phone:flex flex-col justify-start items-center gap-10 ">

@@ -14,8 +14,6 @@
 
     <?php if ($description) { ?>
       <p class="phone:hidden text-center whitespace-normal"> <?php echo $description ?> </p>
-    <?php } ?>
-    <?php if ($description) { ?>
       <p class="hidden phone:block text-left whitespace-normal"> <?php echo $description ?> </p>
     <?php } ?>
   </div>

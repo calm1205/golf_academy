@@ -13,8 +13,8 @@
     <hr class="w-[100px] border-b border-solid border-[#333] mb-4">
 
     <?php if ($description) { ?>
-      <p class="phone:hidden text-center whitespace-normal"> <?php echo $description ?> </p>
-      <p class="hidden phone:block text-left whitespace-normal"> <?php echo $description ?> </p>
+      <p class="phone:hidden text-center whitespace-pre-wrap"> <?php echo $description ?> </p>
+      <p class="hidden phone:block text-left whitespace-pre-wrap"> <?php echo $description ?> </p>
     <?php } ?>
   </div>
 

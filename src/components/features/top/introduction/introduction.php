@@ -26,17 +26,22 @@ $lesson = 'After Golf Studioではツアーの最前線で活躍するプロゴ�
 <?php
 // phone
 ?>
-<div class="hidden phone:flex flex-col gap-8">
-  <img src="<?php echo $absoluteUriPath ?>/asset/introduction/trackman.png" />
-  <p class="ml-4 text-base">
-    <?php echo $trackman ?>
-  </p>
-  <hr class="w-full border-b border-solid border-primary-default" />
+<div class="mt-6 flex-col gap-6 hidden phone:flex">
 
-  <img src="<?php echo $absoluteUriPath ?>/asset/introduction/lesson.png" />
-  <p class="text-base">
-    <?php echo $lesson ?>
-  </p>
+  <?php
+  $title = "トラックマンを使用した<br>最新鋭の練習設備";
+  $description = $trackman;
+  $image = $absoluteUriPath . '/asset/introduction/trackman.png';
+  $button = null;
+  include $uiPartsPath . '/card/card.phone.php' ?>
+
+  <?php
+  $title = "プロゴルファーの<br>マンツーマンレッスン";
+  $description = $lesson;
+  $image = $absoluteUriPath . '/asset/introduction/lesson.png';
+  $button = null;
+  include $uiPartsPath . '/card/card.phone.php' ?>
+
 </div>
 
 <div class="flex justify-center mt-8">

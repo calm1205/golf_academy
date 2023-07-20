@@ -1,11 +1,8 @@
-<div class="relative m-0 p-0 bg-black bg-opacity-40">
-  <img src="<?php echo $absoluteUriPath ?>/asset/prices/prices.png" alt="" class="text-center mx-auto">
-  <h2 class="font-bold text-center text-4xl text-white absolute
-  <!-- 絶対位置指定((100% - 'h2要素の長さ') / 2) で中央揃え -->
-  top-[calc((100%_-_40px)_/_2)] left-[calc((100%_-_180px)_/_2)]">
-    料金プラン
-  </h2>
-</div>
+<?php
+$title = '料金プラン';
+$image = $absoluteUriPath . '/asset/prices/prices.png';
+include $uiPartsPath . '/header/headerImage/headerImage.php';
+?>
 
 <div class="w-4/5 mx-auto pt-10 pb-[100px] flex flex-col gap-20 items-center bg-white phone:w-full phone:mx-4 px-4 phone:text-left">
   <?php

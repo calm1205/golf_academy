@@ -62,4 +62,5 @@ styleの適応は`tailwindcss`を採用した。
 - [構成案 PDF](https://drive.google.com/drive/folders/1Jwdmr7g_MEQkBJ62GBMSizPQW8D08Y-C)
 - [サイトマップ](https://docs.google.com/spreadsheets/d/14-skC5Ch_RSmT0ZnDHErwU-y7SSvTpxOFA4gipYZI6U/edit#gid=1819710037)
 - [Figma](https://www.figma.com/file/0BYv1VK5o7IA5WMJxJHJJL/%E3%82%B4%E3%83%AB%E3%83%95%E3%83%AC%E3%83%83%E3%82%B9%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%88?node-id=107-533&t=JgVgmltGHdKiIFVI-0)
+- [Figma新UI](https://www.figma.com/file/Tdyfan3agZ5Sndz9dGGViM/%E7%A2%BA%E8%AA%8D%E7%94%A8?type=design&node-id=0%3A1&t=JW5ulWXMbQf0sLHG-1)
 - [wordpress site](https://golf.5blocks.jp/)

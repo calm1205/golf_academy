@@ -24,15 +24,25 @@
 </div>
 
 <!-- phone -->
+<?php
+$image = $absoluteUriPath . '/asset/lesson/staff.png';
+?>
+
 <div class="hidden phone:flex flex-col justify-start items-center gap-10 ">
-  <img src="<?php echo $image ?>" class="w-full" />
+  <img src='<?php echo $image ?>' class="px-20 w-4/5" />
 
   <div class="flex flex-col">
     <h3 class="text-2xl">
-      <?php echo $title ?>
+      代表コーチ
+      〇〇プロ
     </h3>
     <p class="text-base whitespace-pre-line">
-      <?php echo $description ?>
+      After Golfのメインコーチを務める〇〇です。<br>私がこれまでのゴルフ人生で得た知識・経験を、これからゴルフを上達したい！<br>という方にお伝えしたいと思っております。<br>ゴルフの魅力を広め、ゴルフを愛する人をひとりでも増やしていけるように尽力いたします。
     </p>
   </div>
+
+  <?php
+  $button = 'スタッフ紹介を見る';
+  ?>
+  <?php include $uiPartsPath . '/button/button.php' ?>
 </div>

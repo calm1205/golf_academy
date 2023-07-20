@@ -12,26 +12,26 @@
 
 <div class="flex flex-col gap-12 mt-14">
   <?php
-  $title = 'After Golf Studioのご紹介';
   ob_start();
   include 'introduction/introduction.php';
   $children = ob_get_clean();
+  $title = 'After Golf Studioのご紹介';
   include $uiPartsPath . '/section/section.php'
   ?>
 
   <?php
-  $title = 'レッスンスタッフのご紹介';
   ob_start();
   include 'lessonStaff/lessonStaff.php';
   $children = ob_get_clean();
+  $title = 'レッスンスタッフのご紹介';
   include $uiPartsPath . '/section/section.php'
   ?>
 
   <?php
-  $title = '施設案内';
   ob_start();
   include 'facilityIntro/facilityInfo.php';
   $children = ob_get_clean();
+  $title = '施設案内';
   include $uiPartsPath . '/section/section.php'
   ?>
 

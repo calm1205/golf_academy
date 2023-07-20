@@ -9,16 +9,17 @@
 <section class="flex flex-col items-center gap-4">
   <h2 class="font-bold text-2xl"> <?php echo $title ?> </h2>
 
-  <div class="flex flex-col items-center">
+  <div class="flex flex-col items-center phone:my-4">
     <hr class="w-[100px] border-b border-solid border-[#333] mb-4">
 
     <?php if ($description) { ?>
-      <p class="text-center whitespace-pre"> <?php echo $description ?> </p>
+      <p class="phone:hidden text-center whitespace-pre-wrap"> <?php echo $description ?> </p>
+      <p class="hidden phone:block text-left whitespace-pre-wrap"> <?php echo $description ?> </p>
     <?php } ?>
   </div>
 
   <table class="border-collapse border 
-  [&_th]:border [&_th]:w-[210px] [&_th]:py-4 [&_th]:font-normal
+  [&_th]:border [&_th]:w-[210px] [&_th]:px-10 [&_th]:py-4 [&_th]:font-normal
   [&_td]:border [&_td]:px-10 [&_td]:py-4
   ">
     <?php foreach ($table as $key => $value) { ?>

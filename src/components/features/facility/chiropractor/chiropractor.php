@@ -5,25 +5,20 @@ $chiropractor = "After Golfは整体を併設しているので、レッスン�
 リラックスした状態でゴルフに望むことができます。"
 ?>
 
-
 <div class="pt-16 pb-[100px] flex phone:hidden flex-col gap-10">
-
   <?php
   $title = "ゴルフに理想的な身体を作る「ゴルフ整体」";
   $description = $chiropractor;
   $image = $absoluteUriPath . '/asset/chiropractor/chiropractor.png';
   $button = null;
   include $uiPartsPath . '/card/imageCardRight.php' ?>
-
 </div>
 
 <div class="pb-[100px] phone:flex hidden flex-col gap-10">
-
   <?php
   $title = "ゴルフに理想的な身体を作る<br>「ゴルフ整体」";
   $description = $chiropractor;
   $image = $absoluteUriPath . '/asset/chiropractor/chiropractor.png';
   $button = null;
-  include $uiPartsPath . '/card/phoneCard.php' ?>
-
+  include $uiPartsPath . '/card/card.phone.php' ?>
 </div>

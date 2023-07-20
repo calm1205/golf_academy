@@ -34,7 +34,7 @@ $data = 'トラックマンでは弾道や飛距離だけでなく、クラブ�
   仕切りを設けてプライベート空間を維持した練習場を2打席用意しております。";
   $image = $absoluteUriPath . '/asset/introduction/trackman.png';
   $button = null;
-  include $uiPartsPath . '/card/phoneCard.php'; ?>
+  include $uiPartsPath . '/card/card.phone.php'; ?>
 
   <?php
   $title = "データをもとに理想のスイングを追求";
@@ -42,5 +42,5 @@ $data = 'トラックマンでは弾道や飛距離だけでなく、クラブ�
   取得したあらゆるデータをレッスンに使用することで、理想のスイングを追求します。";
   $image = $absoluteUriPath . '/asset/facility/trackman/trackman2.png';
   $button = null;
-  include $uiPartsPath . '/card/phoneCard.php'; ?>
+  include $uiPartsPath . '/card/card.phone.php'; ?>
 </div>

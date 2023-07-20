@@ -33,14 +33,14 @@ $lesson = 'After Golf Studioではツアーの最前線で活躍するプロゴ�
   $description = $trackman;
   $image = $absoluteUriPath . '/asset/introduction/trackman.png';
   $button = null;
-  include $uiPartsPath . '/card/phone.card.php' ?>
+  include $uiPartsPath . '/card/card.phone.php' ?>
 
   <?php
   $title = "プロゴルファーの<br>マンツーマンレッスン";
   $description = $lesson;
   $image = $absoluteUriPath . '/asset/introduction/lesson.png';
   $button = null;
-  include $uiPartsPath . '/card/phone.card.php' ?>
+  include $uiPartsPath . '/card/card.phone.php' ?>
 
 </div>
 

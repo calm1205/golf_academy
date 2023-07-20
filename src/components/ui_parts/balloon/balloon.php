@@ -1,13 +1,13 @@
 <div class="flex justify-center">
-  <div class="relative h-[100px] w-[411px]">
-    <div class="w-[411px] h-[100px] absolute z-50 top-0 flex justify-center items-center font-bold text-2xl text-center">
+  <div class="relative h-[100px] w-[411px] phone:w-[95%]">
+    <div class="w-[411px] phone:w-full h-[100px] absolute z-50 top-0 flex justify-center items-center font-bold text-2xl phone:text-xl text-center">
       ゴルフをこれから始める人も！<br>
       もっと上達したい人も！ 大歓迎！
     </div>
 
     <!-- 背景の四角 -->
-    <div class="bg-white w-[411px] border border-primary-default h-[100px] absolute top-0 z-30"></div>
-    <div class="bg-primary-default w-[411px] h-[100px] absolute z-0 top-[4px] left-[4px]"></div>
+    <div class="bg-white w-[411px] phone:w-full border border-primary-default h-[100px] absolute top-0 z-30"></div>
+    <div class="bg-primary-default w-[411px] phone:w-full h-[100px] absolute z-0 top-[4px] left-[4px]"></div>
 
     <!-- 角の斜線 -->
     <div class="h-[1px] w-[60px] bg-primary-default -rotate-45 absolute z-50 top-[10px] left-[-20px]"></div>

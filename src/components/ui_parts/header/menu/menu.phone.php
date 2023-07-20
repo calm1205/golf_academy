@@ -29,6 +29,9 @@
       <a href="#"> スタッフ紹介 </a>
     </li>
     <li>
+      <a href="prices"> 料金プラン </a>
+    </li>
+    <li>
       <a href="#"> アクセス </a>
     </li>
   </ul>

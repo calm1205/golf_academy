@@ -6,7 +6,7 @@
     <a href="/rental">レンタル用品</a>
   </li>
   <li>
-    スタッフ紹介
+    <a href="/coaches">コーチ紹介</a>
   </li>
   <li>
     <a href="/prices">料金プラン</a>

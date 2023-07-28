@@ -15,7 +15,7 @@
   ob_start();
   include 'introduction/introduction.php';
   $children = ob_get_clean();
-  $title = 'After Golf Studioのご紹介';
+  $title = 'ゴルモトアカデミーのご紹介';
   include $uiPartsPath . '/section/section.php'
   ?>
 

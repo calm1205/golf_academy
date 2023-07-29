@@ -33,6 +33,7 @@
     if (strstr($path, 'rental')) : include $featuresPath . '/rental/rental.php';
     elseif (strstr($path, 'facility')) : include $featuresPath . '/facility/facility.php';
     elseif (strstr($path, 'prices')) : include $featuresPath . '/prices/prices.php';
+    elseif (strstr($path, 'coaches')) : include $featuresPath . '/coaches/coaches.php';
     else : include $featuresPath . '/top/top.php';
     endif;
     ?>

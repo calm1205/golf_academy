@@ -24,11 +24,11 @@
 
 <!-- phone -->
 <?php
-$image = $absoluteUriPath . '/asset/lesson/staff.jpeg';
+$image = $absoluteUriPath . '/asset/lesson/staff_responsive.png';
 ?>
 
 <div class="hidden phone:flex flex-col justify-start items-center gap-10 ">
-  <img src='<?php echo $image ?>' class="px-20 w-4/5" />
+  <img src='<?php echo $image ?>' class="w-full rounded-3xl" />
 
   <div class="flex flex-col">
     <h3 class="text-2xl">

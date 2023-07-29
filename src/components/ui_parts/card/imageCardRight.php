@@ -14,6 +14,7 @@
   <div class="absolute top-0 right-4 w-[72%] h-full -skew-x-12 overflow-hidden bg-white opacity-80"></div>
 
   <div class="absolute top-[280px] right-0 z-50">
+    <?php $image = null ?>
     <?php include $uiPartsPath . '/card/card.php' ?>
   </div>
 </div>

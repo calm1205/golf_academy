@@ -14,6 +14,7 @@
   </div>
 
   <div class="absolute top-[280px] left-0 z-50">
+    <?php $image = null ?>
     <?php include $uiPartsPath . '/card/card.php' ?>
   </div>
 </div>

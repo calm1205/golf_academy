@@ -20,5 +20,5 @@ $chiropractor = "After Golfは整体を併設しているので、レッスン�
   $description = $chiropractor;
   $image = $absoluteUriPath . '/asset/chiropractor/chiropractor.png';
   $button = null;
-  include $uiPartsPath . '/card/card.phone.php' ?>
+  include $uiPartsPath . '/card/card.php' ?>
 </div>

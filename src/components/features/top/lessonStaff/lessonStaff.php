@@ -1,10 +1,11 @@
 <!-- desktop -->
 <div class="phone:hidden px-10 py-16 drop-shadow-lg bg-white rounded-2xl">
   <div class="flex justify-start items-center gap-10 ">
-    <img class="max-w-sm w-2/5" src="<?php echo $absoluteUriPath . '/asset/lesson/staff.jpeg' ?>" />
+    <img class="max-w-sm w-2/5 rounded-2xl" src="<?php echo $absoluteUriPath . '/asset/lesson/staff.png' ?>" />
     <div class="flex flex-col w-full">
       <h3 class="text-2xl">
-        小久保晃一 / Kokubo Kouichi
+        小久保晃一 / Kokubo Kouichi<br>
+        小久保由加里 / Kokubo Yukari
       </h3>
 
       <hr class="border-b border-solid border-primary-default self-stretch mt-6">
@@ -24,7 +25,7 @@
 
 <!-- phone -->
 <?php
-$image = $absoluteUriPath . '/asset/lesson/staff_responsive.png';
+$image = $absoluteUriPath . '/asset/lesson/staff.png';
 ?>
 
 <div class="hidden phone:flex flex-col justify-start items-center gap-10 ">
@@ -32,7 +33,8 @@ $image = $absoluteUriPath . '/asset/lesson/staff_responsive.png';
 
   <div class="flex flex-col">
     <h3 class="text-2xl">
-      小久保晃一 / Kokubo Kouichi
+      小久保晃一 / Kokubo Kouichi<br>
+      小久保由加里 / Kokubo Yukari
     </h3>
     <hr class="border-b border-solid border-primary-default self-stretch mt-6">
     <p class="text-base whitespace-pre-line">

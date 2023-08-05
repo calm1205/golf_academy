@@ -7,10 +7,10 @@
 */ ?>
 
 <div class="relative h-[510px]">
-  <img src="<?php echo $image ?>" class="absolute top-8 right-0 w-1/2 h-[400px] z-20" />
+  <img src="<?php echo $image ?>" class="absolute top-8 right-0 w-1/2 h-[400px] aspect-video z-20" />
 
-  <div class="absolute top-0 left-4 w-[72%] h-full -skew-x-12 overflow-hidden">
-    <img src="<?php echo $image ?>" class="w-full h-full skew-x-12 scale-125 opacity-20" />
+  <div class="absolute top-0 left-4 w-[72%] h-full -skew-x-12  overflow-hidden">
+    <img src="<?php echo $image ?>" class="w-full h-full skew-x-12  scale-125 opacity-20" />
   </div>
 
   <div class="absolute top-[280px] left-0 z-50">

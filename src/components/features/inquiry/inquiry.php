@@ -2,7 +2,7 @@
   <h1 class="text-blue-400 text-5xl">お問い合わせ</h1>
 </div>
 
-<div class="my-20 flex flex-col gap-20 mx-auto bg-white ">
+<div class="my-20 phone:my-10 flex flex-col gap-20 phone:gap-6 mx-auto phone:mx-4 bg-white ">
 
   <!-- denwa -->
   <div class="flex flex-col gap-[14px] items-center">
@@ -20,7 +20,7 @@
   </div>
 
   <!-- fo-mu -->
-  <form class="flex flex-col gap-10 w-[750px] mx-auto">
+  <form class="flex flex-col gap-10 w-[750px] phone:w-full mx-auto ">
 
     <div class="flex flex-col gap-2">
       <p class="font-bold">名前（必須）</p>

@@ -6,7 +6,8 @@
   まだ道具を揃えていないビギナーの方でも、安心してレッスンを受けることが可能です。
   レンタル用品の詳細は、以下のリンクよりご確認ください。";
   $image = $absoluteUriPath . '/asset/handFree/clubs.png';
-  $button = "レッスン用品一覧を見る";
+  $button = "レンタル用品一覧を見る";
+  $href = "rental";
   include $uiPartsPath . '/card/imageCardRight.php'; ?>
 
   <div class="mt-10"></div>

@@ -34,6 +34,12 @@
     <li>
       <a href="#"> アクセス </a>
     </li>
+    <li>
+      <a href="#">会員登録申込</a>
+    </li>
+    <li>
+      <a href="/inquiry">お問い合わせ</a>
+    </li>
   </ul>
 </div>
 

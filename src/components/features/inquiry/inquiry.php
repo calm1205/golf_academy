@@ -8,9 +8,8 @@
   <div class="flex flex-col gap-[14px] items-center">
     <h3 class="text-xl font-bold">お急ぎの方はお電話にてご連絡ください！</h3>
 
-    <div class="flex gap-2 border border-blue-400 rounded-4 rounded p-[10px]">
-      <?php $image = $absoluteUriPath . '/asset/inquiry/phone.png'; ?>
-      <img src="<?php echo $image ?>">
+    <div class="flex gap-2 border items-center border-blue-400 rounded-4 rounded p-[10px]">
+      <i class="fa-solid fa-phone text-blue-400"></i>
       <a href="tel:0480-53-3334">
         <p class="text-blue-400 font-bold">0480-53-3334</p>
       </a>
@@ -21,7 +20,6 @@
 
   <!-- fo-mu -->
   <form class="flex flex-col gap-10 w-[750px] phone:w-full mx-auto ">
-
     <div class="flex flex-col gap-2">
       <p class="font-bold">名前（必須）</p>
       <input type="text" name="NAME" class="border w-full" required>

@@ -6,7 +6,7 @@ $lesson = 'ゴルトモアカデミーではツアーの最前線で活躍する
 <?php
 // desktop 
 ?>
-<div class="pt-16 pb-[100px] flex phone:hidden flex-col gap-16">
+<div class="pt-16 flex phone:hidden flex-col gap-20">
   <?php
   $title = "トラックマンを使用した最新鋭の練習設備";
   $description = $trackman;

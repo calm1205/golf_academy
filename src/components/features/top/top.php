@@ -10,7 +10,7 @@
   </p>
 </div>
 
-<div class="flex flex-col gap-12 mt-14">
+<div class="flex flex-col mt-14">
   <?php
   ob_start();
   include 'introduction/introduction.php';

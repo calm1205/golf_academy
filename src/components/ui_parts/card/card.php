@@ -7,11 +7,11 @@
 */ ?>
 
 <!-- desktop -->
-<div class="flex phone:hidden bg-white shadow-lg
-<?php if (!$image) echo "w-[800px] py-10"; ?>
-">
+<div class="card flex phone:hidden bg-white shadow-lg
+<?php if (!$image) echo "max-w-[800px] py-10"; ?> ">
 
-  <?php if ($image) { ?> <img class="h-[400px] aspect-square" src="<?php echo $image ?>" />
+  <?php if ($image) { ?>
+    <img class="aspect-square" src="<?php echo $image ?>" />
   <?php } ?>
 
   <div class="flex flex-col justify-center pr-10 gap-4">

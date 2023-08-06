@@ -1,5 +1,5 @@
 <!-- desktop -->
-<div class="flex phone:hidden justify-center mt-10 p-8 bg-white">
+<div class="flex flex-col items-center phone:hidden mt-10 p-8 bg-white gap-8">
   <section class="w-4/5 max-h-80 flex flex-col overflow-y-scroll gap-5 ">
     <?php for ($i = 0; $i < 10; $i++) { ?>
       <a href="#" class="flex justify-between items-center border-b p-3 ">
@@ -17,7 +17,11 @@
         <i class="fa-solid fa-chevron-right text-gray-600 font-extralight"></i>
       </a>
     <?php } ?>
+
   </section>
+  <?php $button = "ニュース・お知らせ一覧を見る" ?>
+  <?php $href = "/news" ?>
+  <?php include $uiPartsPath . '/button/button.php'; ?>
 </div>
 
 <!-- phone -->

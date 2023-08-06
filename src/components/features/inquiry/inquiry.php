@@ -2,9 +2,7 @@
   <h1 class="text-blue-400 text-5xl">お問い合わせ</h1>
 </div>
 
-<div class="my-20 phone:my-10 flex flex-col gap-20 phone:gap-6 mx-auto phone:mx-4 bg-white ">
-
-  <!-- denwa -->
+<div class="max-w-5xl py-20 phone:my-10 flex flex-col gap-20 phone:gap-6 mx-auto phone:mx-4 bg-white">
   <div class="flex flex-col gap-[14px] items-center">
     <h3 class="text-xl font-bold">お急ぎの方はお電話にてご連絡ください！</h3>
 
@@ -18,7 +16,6 @@
     <p>営業時間：10:00〜21:00 | 定休日：水曜日</p>
   </div>
 
-  <!-- fo-mu -->
   <form class="flex flex-col gap-10 w-[750px] phone:w-full mx-auto ">
     <div class="flex flex-col gap-2">
       <p class="font-bold">名前（必須）</p>

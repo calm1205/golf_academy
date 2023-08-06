@@ -1,5 +1,4 @@
-<div class="pt-16 pb-[100px] flex phone:hidden flex-col gap-10">
-
+<div class="pt-16 pb-[100px] flex min-w-[80%] phone:hidden flex-col items-center gap-10">
   <?php
   $title = "手ぶらでレッスン受講が可能！";
   $description = "ゴルフクラブなどのレッスンで使用する道具は無料でレンタルをしております。
@@ -18,19 +17,15 @@
   $button = null;
   include $uiPartsPath . '/card/imageCardLeft.php'; ?>
 
-
   <?php
   $title = "ゴルファー専門整体施設も併設";
   $description = "骨盤や股関節、肩甲骨を重点的に施術し、ゴルフを正しい動作でプレーするための身体作りをサポートします。
   ゴルフに使用する様々な筋肉をケアすることで、飛距離の向上や、疲れにくい身体づくりをすることが可能です。";
   $image = $absoluteUriPath . '/asset/chiropractor/chiropractor.png';
   include $uiPartsPath . '/card/imageCardRight.php'; ?>
-
-
 </div>
 
 <div class="pt-16 pb-[100px] phone:flex hidden flex-col gap-10">
-
   <?php
   $title = "手ぶらでレッスン受講が可能！";
   $description = "ゴルフクラブなどのレッスンで使用する道具は無料でレンタルをしております。<br>まだ道具を揃えていないビギナーの方でも、安心してレッスンを受けることが可能です。<br>レンタル用品の詳細は、以下のリンクよりご確認ください。";
@@ -45,12 +40,9 @@
   $button = null;
   include $uiPartsPath . '/card/card.php'; ?>
 
-
   <?php
   $title = "ゴルファー専門整体施設も併設";
   $description = "骨盤や股関節、肩甲骨を重点的に施術し、ゴルフを正しい動作でプレーするための身体作りをサポートします。<br>ゴルフに使用する様々な筋肉をケアすることで、飛距離の向上や、疲れにくい身体づくりをすることが可能です。";
   $image = $absoluteUriPath . '/asset/chiropractor/chiropractor.png';
   include $uiPartsPath . '/card/card.php'; ?>
-
-
 </div>

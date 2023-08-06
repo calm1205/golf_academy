@@ -5,7 +5,7 @@ $chiropractor = "After Golfは整体を併設しているので、レッスン�
 リラックスした状態でゴルフに望むことができます。"
 ?>
 
-<div class="pt-16 pb-[100px] flex phone:hidden flex-col gap-10">
+<div class="pt-16 pb-[100px] flex min-w-[80%] max-w-[1280px] phone:hidden flex-col gap-10">
   <?php
   $title = "ゴルフに理想的な身体を作る「ゴルフ整体」";
   $description = $chiropractor;

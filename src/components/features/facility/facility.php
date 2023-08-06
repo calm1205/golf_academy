@@ -4,8 +4,7 @@ $image = $absoluteUriPath . '/asset/facility/facility.png';
 include $uiPartsPath . '/header/headerImage/headerImage.php';
 ?>
 
-
-<div class="flex flex-col gap-12 mt-14 mx-auto w-4/5  phone:px-4 phone:w-full">
+<div class="flex flex-col items-center gap-12 mt-14 mx-auto w-4/5 phone:px-4 phone:w-full">
   <?php
   // トラックマンを使用した最新鋭の練習設備
   include 'trackman/trackman.php';

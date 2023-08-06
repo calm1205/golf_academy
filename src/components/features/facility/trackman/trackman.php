@@ -6,7 +6,7 @@ $data = 'トラックマンでは弾道や飛距離だけでなく、クラブ�
 ?>
 
 <!-- desktop -->
-<div class="pt-16 pb-[100px] flex phone:hidden flex-col gap-10">
+<div class="pt-16 max-w-[1280px] min-w-[80%] flex phone:hidden flex-col gap-10">
 
   <?php
   $title = "トラックマンを使用した最新鋭の練習設備";

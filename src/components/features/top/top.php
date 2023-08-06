@@ -36,11 +36,12 @@
   ?>
 
   <?php
-  $title = 'ニュース・お知らせ';
   ob_start();
   include 'news/news.php';
   $children = ob_get_clean();
-  include $uiPartsPath . '/section/section.php' ?>
+  $title = 'ニュース・お知らせ';
+  include $uiPartsPath . '/section/section.php'
+  ?>
 </div>
 
 <?php include $uiPartsPath . '/guidance/guidance.php'; ?>

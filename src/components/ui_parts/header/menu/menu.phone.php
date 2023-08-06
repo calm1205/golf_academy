@@ -32,10 +32,7 @@
       <a href="prices"> 料金プラン </a>
     </li>
     <li>
-      <a href="#"> アクセス </a>
-    </li>
-    <li>
-      <a href="#">会員登録申込</a>
+      <a href="/top#guidance"> アクセス </a>
     </li>
     <li>
       <a href="/inquiry">お問い合わせ</a>

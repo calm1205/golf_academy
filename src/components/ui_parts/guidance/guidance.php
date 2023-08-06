@@ -1,4 +1,4 @@
-<div class="flex flex-col text-center mx-auto w-[144px]">
+<div id="guidance" class="flex flex-col text-center mx-auto w-[144px]">
   <h2 class="text-2xl font-bold text-center pb-2">
     営業のご案内
   </h2>

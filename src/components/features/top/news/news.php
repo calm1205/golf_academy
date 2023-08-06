@@ -4,7 +4,7 @@
     <?php for ($i = 0; $i < 10; $i++) { ?>
       <a href="#" class="flex justify-between items-center border-b p-3 ">
         <article class="flex gap-8 w-full">
-          <span class="text-[8px] text-white bg-primary-default p-1 rounded">
+          <span class="text-[8px] text-white bg-primary-light p-1 rounded">
             2022.10.10
           </span>
           <p class="max-w-[80%] text-base text-gray-600 tracking-wider font-extralight text-ellipsis whitespace-nowrap overflow-hidden">
@@ -30,7 +30,7 @@
     <?php for ($i = 0; $i < 10; $i++) { ?>
       <a href="#" class="flex justify-between items-center border-b p-3 ">
         <article class="flex gap-8 w-full">
-          <span class="text-[8px] text-white bg-primary-default p-1 rounded">
+          <span class="text-[8px] text-white bg-primary-light p-1 rounded">
             2022.10.10
           </span>
           <p class="max-w-[80%] text-base text-gray-600 tracking-wider font-extralight text-ellipsis whitespace-nowrap overflow-hidden">

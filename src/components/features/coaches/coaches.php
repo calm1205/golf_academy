@@ -1,13 +1,11 @@
-<?php
-$title = 'コーチ紹介';
-$image = $absoluteUriPath . '/asset/prices/prices.png';
-include $uiPartsPath . '/header/headerImage/headerImage.php';
-?>
+<div class="w-screen h-60 bg-white flex justify-center items-center border-blue-400 border-2">
+  <h1 class="text-blue-400 text-5xl">コーチ紹介</h1>
+</div>
 
 <div class="my-20 mx-auto flex flex-col w-4/5 phone:hidden">
 
-  <div class="flex gap-6 mb-20">
-    <img src="<?php echo $absoluteUriPath . '/asset/coaches/coach1.png' ?>">
+  <div class="flex gap-6">
+    <img src="<?php echo $absoluteUriPath . '/asset/coaches/coach1.png' ?>" class="resize-none w-[330px] h-[480px]">
     <div class="flex flex-col items-end justify-between">
       <div class="flex flex-col gap-4">
         <div>
@@ -30,16 +28,24 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
         </div>
         <p class="whitespace-pre-line">現在50歳で、昨年よりPGAシニアツアーの出場を目指し、2年連続でQT決勝に進出している。
           リアルトーナメントプレーヤーであり、自分のベースを作るために新たな挑戦として、インドアゴルフスタジオのヘッドコーチに就任した。
-          埼玉県に戻り、自身の出身地である場所でゴルフの楽しさを皆様に伝えるために頑張ります。
+          埼玉県に戻り、自身の出身地である場所でゴルフの楽しさを皆様に伝えるために頑張ります。<br>
+          生年月日：1972年3月2日
+          出身地：埼玉県
+          身長：175cm
+          体重：75kg
+          血液型：A型
+          学歴：日本大学卒
+          ゴルフ歴：10歳〜
+          座右の銘：全ての練習は不可能を可能にする
         </p>
       </div>
-      <img src="<?php echo $absoluteUriPath . '/asset/coaches/twoSpuares.png'; ?>">
     </div>
 
   </div>
+  <img src="<?php echo $absoluteUriPath . '/asset/coaches/twoSpuares.png'; ?>" class="w-[100px] h-[100px] mr-0 ml-auto mb-20">
 
   <div class="flex flex-row-reverse gap-6 mb-10">
-    <img src="<?php echo $absoluteUriPath . '/asset/coaches/coach2.png' ?>">
+    <img src="<?php echo $absoluteUriPath . '/asset/coaches/coach2.png' ?>" class="resize-none w-[330px] h-[480px]">
 
     <div class="flex flex-col gap-4">
       <div>
@@ -65,10 +71,19 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
         現在レジェンズツアー参戦中。
         将来を見据え新たな挑戦としてインドアゴルフスタジオのヘッドコーチに就任。
         夫 小久保晃一プロの地元である埼玉県で二人三脚で皆様にゴルフの楽しさを伝える事を楽しみにしています。
+        <br>
+        生年月日：1968年8月8日
+        出身地：茨城県
+        身長：168cm
+        体重：58kg
+        血液型：AＢ型
+        学歴：日立女子高卒
+        ゴルフ歴：24歳〜
+        座右の銘：継続は力なり
       </p>
     </div>
   </div>
-  <img src="<?php echo $absoluteUriPath . '/asset/coaches/twoSquaresReverse.png' ?>" class="w-[100px] h-[100px]">
+  <img src="<?php echo $absoluteUriPath . '/asset/coaches/twoSquaresReverse.png' ?>" class=" ml-0 mr-auto w-[100px] h-[100px]">
 </div>
 
 <!-- phone -->

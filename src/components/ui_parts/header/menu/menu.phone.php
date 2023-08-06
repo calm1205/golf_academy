@@ -38,7 +38,7 @@
       <a href="#">会員登録申込</a>
     </li>
     <li>
-      <a href="/prices">お問い合わせ</a>
+      <a href="/inquiry">お問い合わせ</a>
     </li>
   </ul>
 </div>

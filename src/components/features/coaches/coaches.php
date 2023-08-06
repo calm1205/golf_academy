@@ -1,8 +1,6 @@
-<?php
-$title = 'コーチ紹介';
-$image = $absoluteUriPath . '/asset/prices/prices.png';
-include $uiPartsPath . '/header/headerImage/headerImage.php';
-?>
+<div class="w-screen h-60 bg-white flex justify-center items-center border-blue-400 border-2">
+  <h1 class="text-blue-400 text-5xl">コーチ紹介</h1>
+</div>
 
 <div class="my-20 mx-auto flex flex-col w-4/5 phone:hidden">
 

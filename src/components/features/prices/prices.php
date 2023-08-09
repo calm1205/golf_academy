@@ -17,7 +17,7 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
     include 'section/section.php';
     ?>
 
-    <div class="mx-auto flex gap-4 text-lg">
+    <div class="mx-auto flex gap-4 text-lg phone:flex-col">
       <?php $image = $absoluteUriPath . '/asset/prices/arrow.png'; ?>
 
       <a href="#basic">

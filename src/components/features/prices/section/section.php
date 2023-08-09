@@ -29,4 +29,13 @@
       </tr>
     <?php }  ?>
   </table>
+
+  <?php if ($note) { ?>
+
+    <div class="flex flex-col items-center text-center phone:my-4">
+      <p><span class="font-bold">通い放題つき（レッスン無し、練習のみ）</span><br><br>※月額会員プランの通い放題（レッスン無し、練習のみ）は専用の予約ページ＆お電話にて受付いたします。</p>
+    </div>
+
+  <?php } ?>
+
 </section>

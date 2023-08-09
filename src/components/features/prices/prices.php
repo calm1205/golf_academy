@@ -13,10 +13,11 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
       "事務手数料" => ["3,000円(税込)"]
     ];
     $description = null;
+    $note = null;
     include 'section/section.php';
     ?>
 
-    <div class="mx-auto flex gap-4 text-lg">
+    <div class="mx-auto flex gap-4 text-lg phone:flex-col">
       <?php $image = $absoluteUriPath . '/asset/prices/arrow.png'; ?>
 
       <a href="#basic">
@@ -63,6 +64,7 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
       "レッスン回数" => ["月/2回"],
     ];
     $id = 'basic';
+    $note = '※';
     include 'section/section.php';
     ?>
 
@@ -80,6 +82,7 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
       "レッスン回数" => ["月/4回"]
     ];
     $id = 'middle';
+    $note = '※';
     include 'section/section.php';
     ?>
 
@@ -97,6 +100,7 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
       "レッスン形態" => ["少人数制グループレッスン"]
     ];
     $id = 'beginner';
+    $note = null;
     include 'section/section.php';
     ?>
 
@@ -117,7 +121,9 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
       "レッスン形態" => ["個人レッスン"]
     ];
     $id = 'pro';
+    $note = null;
     include 'section/section.php';
+
     ?>
 
     <?php
@@ -130,6 +136,7 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
       "追加レッスン" => ["気軽に始める基本コース:6,000円<br>しっかり上達コース:4,000円"],
       "ラウンドレッスン" => ["都度ご案内"]
     ];
+    $note = null;
     include 'section/section.php';
     ?>
 
@@ -143,6 +150,7 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
     $table = [
       "施術料金" => ["1回6,000円"],
     ];
+    $note = null;
     include 'section/section.php';
     ?>
 

@@ -7,8 +7,7 @@
   <div class="mt-16"></div>
   <?php
   $title = "レンタルシューズ";
-  $description = "レンタルシューズも各サイズご用意しております。
-  サンダルやブーツで来場いただいても、シューズを履き替えてレッスンを受講いただけます。";
+  $description = "運動に適した服装でご来場いただければレッスンは可能ですが、お仕事帰りやお出かけ帰りにもご利用いただきやすいようにレンタルシューズもご用意しております。";
   $image = $absoluteUriPath . '/asset/rental/shoes.png';
   $button = null;
   include $uiPartsPath . '/card/card.php'; ?>

@@ -29,7 +29,7 @@
   <?php
   $title = "手ぶらでレッスン受講が可能！";
   $description = "ゴルフクラブなどのレッスンで使用する道具は無料でレンタルをしております。<br>まだ道具を揃えていないビギナーの方でも、安心してレッスンを受けることが可能です。<br>レンタル用品の詳細は、以下のリンクよりご確認ください。";
-  $image = $absoluteUriPath . '/asset/handFree/clubs.png';
+  $image = $absoluteUriPath . '/asset/handFree/clubs.jpg';
   $button = null;
   include $uiPartsPath . '/card/card.php'; ?>
 

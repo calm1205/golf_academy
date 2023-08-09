@@ -1,7 +1,7 @@
 <?php
 $title = "レンタルクラブ";
 $description = "ゴルフクラブはドライバーからパターまで、すべての種類をご用意。<br>レッスン内容に応じたゴルフクラブをレンタル可能です。";
-$image = $absoluteUriPath . '/asset/rental/club.png';
+$image = $absoluteUriPath . '/asset/rental/clubs.jpg';
 $button = null;
 include $uiPartsPath . '/card/card.php'; ?>
 

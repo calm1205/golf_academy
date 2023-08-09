@@ -17,4 +17,7 @@
   <li>
     <a href="/inquiry">お問い合わせ</a>
   </li>
+  <li>
+    <a href="https://coubic.com/goltomo" target="_blank">お申し込み</a>
+  </li>
 </ul>

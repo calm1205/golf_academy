@@ -46,6 +46,9 @@
     <li>
       <a href="/privacy">プライバシーポリシー</a>
     </li>
+    <li>
+      <a href="/commercial">特定商取引法に基づく表記</a>
+    </li>
   </ul>
 </div>
 

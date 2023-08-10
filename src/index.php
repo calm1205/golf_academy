@@ -38,6 +38,7 @@
     elseif (strstr($path, 'news')) : include $featuresPath . '/news/news.php';
     elseif (strstr($path, 'privacy')) : include $featuresPath . '/privacy/privacy.php';
     elseif (strstr($path, 'terms')) : include $featuresPath . '/terms/terms.php';
+    elseif (strstr($path, 'commercial')) : include $featuresPath . '/commercial/commercial.php';
     else : include $featuresPath . '/top/top.php';
     endif;
     ?>

@@ -20,4 +20,10 @@
   <li>
     <a href="https://coubic.com/goltomo" target="_blank">お申し込み</a>
   </li>
+  <li>
+    <a href="/terms">利用規約</a>
+  </li>
+  <li>
+    <a href="/privacy">プライバシーポリシー</a>
+  </li>
 </ul>

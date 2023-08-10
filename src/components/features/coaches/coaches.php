@@ -9,7 +9,7 @@
     <div class="flex flex-col items-end justify-between">
       <div class="flex flex-col gap-4">
         <div>
-          <h3 class="text-xl">Kokubo Kouichi</h3>
+          <h3 class="text-xl">Kokubo Koichi</h3>
           <h2 class="text-3xl font-bold mb-0">小久保晃一</h2>
         </div>
 
@@ -92,7 +92,7 @@
   <div class="flex flex-col gap-4">
     <img src="<?php echo $absoluteUriPath . '/asset/coaches/coach1_responsive.png' ?>" class="w-4/5 self-center">
     <div>
-      <h3 class="text-xl">Kokubo Kouichi</h3>
+      <h3 class="text-xl">Kokubo Koichi</h3>
       <h2 class="text-3xl font-bold mb-0">小久保晃一</h2>
     </div>
     <hr class="border-b border-solid border-primary-default self-stretch">

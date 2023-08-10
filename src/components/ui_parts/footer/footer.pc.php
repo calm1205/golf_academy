@@ -1,16 +1,16 @@
 <div class="h-56 w-full bg-primary-exLight text-xs py-8 flex items-start justify-center gap-10">
   <div class="flex flex-col gap-2">
-    <p><a href="#">HOME</a></p>
-    <p><a href="#">レンタル用品</a></p>
-    <p><a href="#">コーチ紹介</a></p>
-    <p><a href="#">料金プラン</a></p>
+    <p><a href="/top">HOME</a></p>
+    <p><a href="/rental">レンタル用品</a></p>
+    <p><a href="/coaches">コーチ紹介</a></p>
+    <p><a href="/prices">料金プラン</a></p>
   </div>
 
   <div class="flex flex-col gap-2">
-    <p><a href="#">アクセス</a></p>
+    <p><a href="/top#guidance">アクセス</a></p>
     <p><a href="#">特定商取引法に基づく表記</a></p>
-    <p><a href="#">プライバシーポリシー</a></p>
-    <p><a href="#">お問い合わせ</a></p>
+    <p><a href="/privacy">プライバシーポリシー</a></p>
+    <p><a href="/inquiry">お問い合わせ</a></p>
   </div>
 
   <div class="flex gap-2">

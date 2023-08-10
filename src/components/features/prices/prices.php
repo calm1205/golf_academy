@@ -58,7 +58,7 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
       <div class="hidden mx-auto phone:flex gap-4 text-lg flex-col">
         <a href="#basic">
           <div class="w-[180px] py-4 border rounded-3xl text-center">
-            気軽にに始める<br>基本コース
+            気軽に始める<br>基本コース
             <img src="<?php echo $image ?>" class="mx-auto pt-2">
           </div>
         </a>
@@ -71,13 +71,13 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
         </a>
       </div>
 
-      <div class="hidden mx-auto phone:flex gap-4 text-lg flex-col"">
+      <div class="hidden mx-auto phone:flex gap-4 text-lg flex-col">
 
-      <a href=" #middle">
-        <div class="w-[180px] py-4 border rounded-3xl text-center">
-          しっかり<br>上達コース
-          <img src="<?php echo $image ?>" class="mx-auto pt-2">
-        </div>
+        <a href=" #middle">
+          <div class="w-[180px] py-4 border rounded-3xl text-center">
+            しっかり<br>上達コース
+            <img src="<?php echo $image ?>" class="mx-auto pt-2">
+          </div>
         </a>
 
 

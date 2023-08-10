@@ -8,7 +8,7 @@
 
   <div class="flex flex-col gap-2">
     <p><a href="#">アクセス</a></p>
-    <p><a href="#">特定商取引に基づく表記</a></p>
+    <p><a href="#">特定商取引法に基づく表記</a></p>
     <p><a href="#">プライバシーポリシー</a></p>
     <p><a href="#">お問い合わせ</a></p>
   </div>

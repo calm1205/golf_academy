@@ -5,7 +5,7 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
 ?>
 
 <div class="w-full flex justify-center">
-  <div class="w-4/5 pt-10 pb-[100px] flex flex-col gap-20 items-center bg-white phone:w-full phone:mx-4 px-4 phone:text-left">
+  <div class="w-4/5 pt-10 pb-[100px] flex flex-col gap-20 items-center bg-white phone:w-full phone:mx-4 px-4 phone:px-0 phone:text-left">
     <?php
     $title = '入会金・事務手数料';
     $table = [

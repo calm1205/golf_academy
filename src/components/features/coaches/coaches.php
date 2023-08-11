@@ -5,11 +5,11 @@
 <div class="my-20 mx-auto flex flex-col w-4/5 phone:hidden">
 
   <div class="flex gap-6">
-    <img src="<?php echo $absoluteUriPath . '/asset/coaches/coach1.png' ?>" class="resize-none w-[330px] h-[480px]">
+    <img src="<?php echo $absoluteUriPath . '/asset/coaches/coach1.png' ?>" class="resize-none w-[330px] h-[400px]">
     <div class="flex flex-col items-end justify-between">
       <div class="flex flex-col gap-4">
         <div>
-          <h3 class="text-xl">Kokubo Kouichi</h3>
+          <h3 class="text-xl">Kokubo Koichi</h3>
           <h2 class="text-3xl font-bold mb-0">小久保晃一</h2>
         </div>
 
@@ -45,7 +45,7 @@
   <img src="<?php echo $absoluteUriPath . '/asset/coaches/twoSpuares.png'; ?>" class="w-[100px] h-[100px] mr-0 ml-auto mb-20">
 
   <div class="flex flex-row-reverse gap-6 mb-10">
-    <img src="<?php echo $absoluteUriPath . '/asset/coaches/coach2.png' ?>" class="resize-none w-[330px] h-[480px]">
+    <img src="<?php echo $absoluteUriPath . '/asset/coaches/coach2.png' ?>" class="resize-none w-[330px] h-[400px]">
 
     <div class="flex flex-col gap-4">
       <div>
@@ -92,7 +92,7 @@
   <div class="flex flex-col gap-4">
     <img src="<?php echo $absoluteUriPath . '/asset/coaches/coach1_responsive.png' ?>" class="w-4/5 self-center">
     <div>
-      <h3 class="text-xl">Kokubo Kouichi</h3>
+      <h3 class="text-xl">Kokubo Koichi</h3>
       <h2 class="text-3xl font-bold mb-0">小久保晃一</h2>
     </div>
     <hr class="border-b border-solid border-primary-default self-stretch">

@@ -6,7 +6,7 @@
     最新のトラックマンを導入した高精度な打球の分析と、
     ツアープロによるマンツーマンレッスンで、
     あなたのゴルフ上達を強力にサポート！
-    After Golf Studioは、ゴルフを愛する全ての人を応援します。
+    ゴルトモアカデミーは、ゴルフを愛する全ての人を応援します。
   </p>
 </div>
 
@@ -15,7 +15,7 @@
   ob_start();
   include 'introduction/introduction.php';
   $children = ob_get_clean();
-  $title = 'ゴルモトアカデミーのご紹介';
+  $title = 'ゴルトモアカデミーのご紹介';
   include $uiPartsPath . '/section/section.php'
   ?>
 

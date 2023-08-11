@@ -17,7 +17,8 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
     include 'section/section.php';
     ?>
 
-    <div class="mx-auto flex gap-4 text-lg phone:flex-col">
+    <!-- desktop -->
+    <div class="mx-auto flex gap-4 text-lg phone:hidden">
       <?php $image = $absoluteUriPath . '/asset/prices/arrow.png'; ?>
 
       <a href="#basic">
@@ -47,6 +48,47 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
           <img src="<?php echo $image ?>" class="mx-auto pt-2">
         </div>
       </a>
+
+
+    </div>
+    <!-- phone -->
+    <div class="hidden mx-auto phone:flex gap-4 text-lg">
+      <?php $image = $absoluteUriPath . '/asset/prices/arrow.png'; ?>
+
+      <div class="hidden mx-auto phone:flex gap-4 text-lg flex-col">
+        <a href="#basic">
+          <div class="w-[180px] py-4 border rounded-3xl text-center">
+            気軽に始める<br>基本コース
+            <img src="<?php echo $image ?>" class="mx-auto pt-2">
+          </div>
+        </a>
+
+        <a href="#beginner">
+          <div class="w-[180px] py-4 border rounded-3xl text-center">
+            エンジョイ<br>初心者コース
+            <img src="<?php echo $image ?>" class="mx-auto pt-2">
+          </div>
+        </a>
+      </div>
+
+      <div class="hidden mx-auto phone:flex gap-4 text-lg flex-col">
+
+        <a href=" #middle">
+          <div class="w-[180px] py-4 border rounded-3xl text-center">
+            しっかり<br>上達コース
+            <img src="<?php echo $image ?>" class="mx-auto pt-2">
+          </div>
+        </a>
+
+
+        <a href="#pro">
+          <div class="w-[180px] py-4 border rounded-3xl text-center">
+            プロ育成<br>コース
+            <img src="<?php echo $image ?>" class="mx-auto pt-2">
+          </div>
+        </a>
+      </div>
+
 
 
     </div>
@@ -133,7 +175,7 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
 可能な限りお客様のご要望にはお応えしたいと思っておりますので、
 このオプションにない内容も、お気軽にご相談ください。";
     $table = [
-      "追加レッスン" => ["気軽に始める基本コース:6,000円<br>しっかり上達コース:4,000円"],
+      "追加レッスン" => ["気軽に始める基本コース:1回/6,000円<br>しっかり上達コース:1回/4,000円"],
       "ラウンドレッスン" => ["都度ご案内"]
     ];
     $note = null;
@@ -148,7 +190,7 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
 施術内容は柔道整復師の資格を取得したスタッフが監修して作成をしております。
 ぜひお試しください。";
     $table = [
-      "施術料金" => ["1回6,000円"],
+      "施術料金" => ["1回/6,000円"],
     ];
     $note = null;
     include 'section/section.php';

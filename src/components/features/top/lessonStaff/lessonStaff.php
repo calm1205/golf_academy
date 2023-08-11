@@ -4,7 +4,7 @@
     <img class="max-w-sm w-2/5 rounded-2xl" src="<?php echo $absoluteUriPath . '/asset/lesson/staff.png' ?>" />
     <div class="flex flex-col w-full">
       <h3 class="text-2xl">
-        小久保晃一 / Kokubo Kouichi<br>
+        小久保晃一 / Kokubo Koichi<br>
         小久保由加里 / Kokubo Yukari
       </h3>
 
@@ -33,7 +33,7 @@ $image = $absoluteUriPath . '/asset/lesson/staff.png';
 
   <div class="flex flex-col">
     <h3 class="text-2xl">
-      小久保晃一 / Kokubo Kouichi<br>
+      小久保晃一 / Kokubo Koichi<br>
       小久保由加里 / Kokubo Yukari
     </h3>
     <hr class="border-b border-solid border-primary-default self-stretch mt-6">

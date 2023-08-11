@@ -10,12 +10,12 @@
   </div>
 
   <ol class="[&_li]:border-t [&_li]:border-gray-400 [&_li]:py-4 [&_li]:pl-4">
-    <li> <a href="#">施設概要</a> </li>
-    <li> <a href="#">レンタル用品</a> </li>
-    <li> <a href="#">スタッフ紹介</a> </li>
-    <li> <a href="#">アクセス</a> </li>
+    <li> <a href="/facility">施設概要</a> </li>
+    <li> <a href="/rental">レンタル用品</a> </li>
+    <li> <a href="/coaches">スタッフ紹介</a> </li>
+    <li> <a href="/top#guidance">アクセス</a> </li>
     <li> <a href="#">特定商取引法に基づく表記</a> </li>
-    <li> <a href="#">プライバシーポリシー</a> </li>
-    <li> <a href="#">会員規約</a> </li>
+    <li> <a href="/privacy">プライバシーポリシー</a> </li>
+    <li> <a href="/terms">会員規約</a> </li>
   </ol>
 </div>

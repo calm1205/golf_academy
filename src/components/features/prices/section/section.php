@@ -6,7 +6,7 @@
     - table: string[]
 */ ?>
 
-<section class="flex flex-col items-center gap-4" id="<?php echo $id ?>">
+<section class="flex flex-col items-center gap-4 pt-24 -mt-24" id="<?php echo $id ?>">
   <h2 class="font-bold text-2xl"> <?php echo $title ?> </h2>
 
   <div class="flex flex-col items-center phone:my-4">

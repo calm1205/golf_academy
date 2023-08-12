@@ -35,6 +35,7 @@
     elseif (strstr($path, 'prices')) : include $featuresPath . '/prices/prices.php';
     elseif (strstr($path, 'coaches')) : include $featuresPath . '/coaches/coaches.php';
     elseif (strstr($path, 'inquiry')) : include $featuresPath . '/inquiry/inquiry.php';
+    elseif (strstr($path, 'contact')) : include $featuresPath . '/contact/contact.php';
     elseif (strstr($path, 'news')) : include $featuresPath . '/news/news.php';
     elseif (strstr($path, 'privacy')) : include $featuresPath . '/regal/privacy/privacy.php';
     elseif (strstr($path, 'terms')) : include $featuresPath . '/regal/terms/terms.php';

@@ -15,7 +15,7 @@
     <a href="/top#guidance">アクセス</a>
   </li>
   <li>
-    <a href="/inquiry">お問い合わせ</a>
+    <a href="/contact">お問い合わせ</a>
   </li>
   <li>
     <a href="https://coubic.com/goltomo" target="_blank">お申し込み</a>

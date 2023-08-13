@@ -5,7 +5,7 @@
     <p class="text-sm">〒347-0009 埼玉県加須市上三俣645ｰ1</p>
     <div class="flex mt-2 gap-1">
       <i class="fa-solid fa-phone"></i>
-      <p class="text-sm">06-6786-8620</p>
+      <p class="text-sm">0480-53-3334</p>
     </div>
   </div>
 

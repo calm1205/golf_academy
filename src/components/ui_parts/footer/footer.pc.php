@@ -24,7 +24,7 @@
     <p>〒347-0006 埼玉県加須市上三俣645ｰ1</p>
     <div class="flex mt-2 gap-1">
       <i class="fa-solid fa-phone"></i>
-      <p>06-6786-8620 FAX:0480-53-3324</p>
+      <p>0480-53-3334 FAX:0480-53-3324</p>
     </div>
   </div>
 </div>

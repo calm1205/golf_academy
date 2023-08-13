@@ -14,8 +14,9 @@
     <li> <a href="/rental">レンタル用品</a> </li>
     <li> <a href="/coaches">スタッフ紹介</a> </li>
     <li> <a href="/top#guidance">アクセス</a> </li>
-    <li> <a href="#">特定商取引法に基づく表記</a> </li>
+    <li> <a href="/terms">利用規約</a> </li>
     <li> <a href="/privacy">プライバシーポリシー</a> </li>
+    <li> <a href="/commercial">特定商取引法に基づく表記</a> </li>
     <li> <a href="/terms">会員規約</a> </li>
   </ol>
 </div>

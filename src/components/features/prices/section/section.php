@@ -4,6 +4,8 @@
     - title: string
     - description: string | null
     - table: string[]
+    - buttonText: string
+    - buttonLink: string
 */ ?>
 
 <section class="flex flex-col items-center gap-4 pt-24 -mt-24" id="<?php echo $id ?>">
@@ -27,15 +29,23 @@
         <th><?php echo $key ?></th>
         <td><?php echo $value[0] ?></td>
       </tr>
-    <?php }  ?>
+    <?php } ?>
   </table>
 
   <?php if ($note) { ?>
-
     <div class="flex flex-col items-center text-center phone:my-4">
-      <p><span class="font-bold">通い放題つき（レッスン無し、練習のみ）</span><br><br>※月額会員プランの通い放題（レッスン無し、練習のみ）は専用の予約ページ＆お電話にて受付いたします。</p>
+      <p>
+        <span class="font-bold">通い放題つき（レッスン無し、練習のみ）</span>
+        <br><br>※月額会員プランの通い放題（レッスン無し、練習のみ）は専用の予約ページ＆お電話にて受付いたします。
+      </p>
     </div>
-
   <?php } ?>
 
+  <?php if ($buttonText) { ?>
+    <a href="<?php echo $buttonLink ?>" target="_blank" class="mt-4">
+      <button class="bg-[#ff5d20] text-white rounded-full p-4">
+        <?php echo $buttonText ?>
+      </button>
+    </a>
+  <?php } ?>
 </section>

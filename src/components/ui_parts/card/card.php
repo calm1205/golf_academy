@@ -11,7 +11,7 @@
 <?php if (!$image) echo "max-w-[800px] py-10"; ?> ">
 
   <?php if ($image) { ?>
-    <img class="aspect-square" src="<?php echo $image ?>" />
+    <img class="aspect-square max-w-[50%]" src="<?php echo $image ?>" />
   <?php } ?>
 
   <div class="flex flex-col justify-center pr-10 gap-4">
@@ -32,7 +32,7 @@
 
 <!-- phone -->
 <div class="hidden phone:flex mx-4 rounded-2xl border flex-col gap-4 items-center overflow-hidden bg-white">
-  <img src="<?php echo $image ?>" class="aspect-[7/4] w-full">
+  <img src="<?php echo $image ?>" class="aspect-square w-full max-h-[400px] object-cover">
 
   <div class="flex flex-col px-4 items-start gap-2">
     <h3 class="font-bold text-blue-400 text-2xl"> <?php echo $title ?> </h3>

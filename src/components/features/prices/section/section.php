@@ -47,5 +47,15 @@
         <?php echo $buttonText ?>
       </button>
     </a>
+  <?php }
+
+  ?>
+
+  <?php if ($buttonText2) { ?>
+    <a href="<?php echo $buttonLink2 ?>" target="_blank" class="mt-4">
+      <button class="bg-[#ff5d20] text-white rounded-full p-4">
+        <?php echo $buttonText2 ?>
+      </button>
+    </a>
   <?php } ?>
 </section>

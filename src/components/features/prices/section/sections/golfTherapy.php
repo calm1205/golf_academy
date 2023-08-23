@@ -12,5 +12,7 @@ $table = [
 $note = null;
 $buttonText = "ゴルフ整体のお申し込みはこちら";
 $buttonLink = "https://coubic.com/goltomo/3566019#pageContent";
+$buttonText2 = null;
+$buttonLink2 = null;
 include dirname(__FILE__) . '/../section.php';
 ?>

@@ -8,4 +8,6 @@ $table = [
 $description = null;
 $note = null;
 $buttonText = null;
+$buttonText2 = null;
+$buttonLink2 = null;
 include dirname(__FILE__) . '/../section.php'; ?>

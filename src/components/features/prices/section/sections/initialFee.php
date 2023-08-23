@@ -7,4 +7,5 @@ $table = [
 ];
 $description = null;
 $note = null;
+$buttonText = null;
 include dirname(__FILE__) . '/../section.php'; ?>

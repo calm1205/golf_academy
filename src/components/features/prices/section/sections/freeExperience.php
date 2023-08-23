@@ -9,6 +9,7 @@ $table = [
   "レッスン時間" => ["1回/30分"],
 ];
 $note = null;
+$id = 'experience';
 $buttonText = "体験レッスンのお申し込みはこちら";
 $buttonLink = "https://coubic.com/goltomo/2185261#pageContent%EF%BC%89%3C/p%3E";
 include dirname(__FILE__) . '/../section.php';

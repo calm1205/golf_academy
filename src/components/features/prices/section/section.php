@@ -47,9 +47,7 @@
         <?php echo $buttonText ?>
       </button>
     </a>
-  <?php }
-
-  ?>
+  <?php } ?>
 
   <?php if ($buttonText2) { ?>
     <a href="<?php echo $buttonLink2 ?>" target="_blank" class="mt-4">

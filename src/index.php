@@ -18,11 +18,10 @@
   <link rel="icon" type="image/png" href='<?php echo $absoluteUriPath ?>/asset/favicon.png' />
   <link rel="stylesheet" href="<?php echo $absoluteUriPath ?>/style.css" />
   <link rel="stylesheet" href="<?php echo $absoluteUriPath ?>/tailwind.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <?php include $uiPartsPath . '/header/header.php'; ?>
-
 
 <body>
   <div class="bg-[url('asset/top/backgroundLogo.png')] bg-[50%] bg-repeat opacity-5 h-screen w-screen fixed top-0 z-0"></div>

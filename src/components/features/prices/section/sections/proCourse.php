@@ -16,5 +16,7 @@ $id = 'middle';
 $note = '※';
 $buttonText = "しっかり上達コースのお申し込みはこちら";
 $buttonLink = "https://coubic.com/goltomo/products/283299#pageContent";
+$buttonText2 = null;
+$buttonLink2 = null;
 include dirname(__FILE__) . '/../section.php';
 ?>

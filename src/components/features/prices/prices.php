@@ -13,6 +13,8 @@ include $uiPartsPath . '/header/headerImage/headerImage.php';
     <?php include 'overview/overview.pc.php'; ?>
     <?php include 'overview/overview.phone.php'; ?>
 
+    <!-- 体験レッスン -->
+    <?php include 'section/sections/freeExperience.php' ?>
     <!-- 基本コース -->
     <?php include 'section/sections/basicCourse.php' ?>
     <!-- しっかり上達コース -->

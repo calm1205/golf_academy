@@ -2,10 +2,10 @@
 
   <div class="p-6 flex flex-col gap-3">
     <p class="text-base">ゴルトモアカデミー</p>
-    <p class="text-sm">〒347-0009 埼玉県加須市上三俣645ｰ1</p>
+    <p class="text-sm">〒347-0006 埼玉県加須市上三俣645ｰ1</p>
     <div class="flex mt-2 gap-1">
       <i class="fa-solid fa-phone"></i>
-      <p class="text-sm">0480-53-3334</p>
+      <p class="text-sm">0480-53-3334 FAX:0480-53-3324</p>
     </div>
   </div>
 

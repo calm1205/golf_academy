@@ -12,7 +12,9 @@ $table = [
   "ラウンドレッスン" => ["都度ご案内いたします"]
 ];
 $note = null;
-$buttonText  = "オプションのお申し込みはこちら";
-$buttonLink = "https://coubic.com/goltomo/products#pageContent";
+$buttonText  = "気軽に始める基本コースのお申し込みはこちら";
+$buttonLink = "https://coubic.com/goltomo/products/304122#pageContent";
+$buttonText2 = "しっかり上達コースの追加レッスン申し込みはこちら";
+$buttonLink2 = "https://coubic.com/goltomo/products/202553#pageContent";
 include dirname(__FILE__) . '/../section.php';
 ?>
